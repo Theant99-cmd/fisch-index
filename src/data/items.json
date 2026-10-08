@@ -1,0 +1,4967 @@
+[
+ {
+  "name": "Sundial Totem",
+  "type": "Totem",
+  "category": "Weather Condition Totems",
+  "effect": "The Sundial Totem is a totem which advances the daylight cycle when interacted with.",
+  "obtain": [
+   "Personal Aquarium",
+   "Sunken Chests",
+   "Daily Shop for 1,600 C$",
+   "Sunstone Cave for 2,000 C$ ( -1215 , 195 , -1040 )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Sundial_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/f/fa/Sundial_Totem.png"
+ },
+ {
+  "name": "Clearcast Totem",
+  "type": "Totem",
+  "category": "Weather Condition Totems",
+  "effect": "The Clearcast Totem is a totem which sets the weather to Clear when interacted with.",
+  "obtain": [
+   "Personal Aquarium",
+   "Moosewood for 1,000 C$ ( 701 , 250 , 305 )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Clearcast_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/0/06/Clearcast_Totem.png"
+ },
+ {
+  "name": "Tempest Totem",
+  "type": "Totem",
+  "category": "Weather Condition Totems",
+  "effect": "The Tempest Totem is a totem which sets the weather to Rainy when interacted with.",
+  "obtain": [
+   "Sunken Chests",
+   "Personal Aquarium",
+   "Terrapin Cave for 2,000 C$ ( 20 , 140 , 1860 )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Tempest_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/a/a9/Tempest_Totem.png"
+ },
+ {
+  "name": "Windset Totem",
+  "type": "Totem",
+  "category": "Weather Condition Totems",
+  "effect": "The Windset Totem is a totem which sets the weather to Windy when interacted with.",
+  "obtain": [
+   "Snowcap Cave for 2,000 C$ ( 2845 , 180 , 2700 )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Windset_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/6/64/Windset_Totem.png"
+ },
+ {
+  "name": "Smokescreen Totem",
+  "type": "Totem",
+  "category": "Weather Condition Totems",
+  "effect": "The Smokescreen Totem is a totem which sets the weather to Foggy when interacted with.",
+  "obtain": [
+   "Personal Aquarium",
+   "Sunken Chests",
+   "Mushgrove Swamp for 2,000 C$ ( 2790 , 140 , -625 )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Smokescreen_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/1/16/Smokescreen_Totem.png"
+ },
+ {
+  "name": "Eclipse Totem",
+  "type": "Totem",
+  "category": "Weather Condition Totems",
+  "effect": "The Eclipse Totem is a totem which sets the weather to Eclipse when interacted with.",
+  "obtain": [
+   "Personal Aquarium",
+   "Sunken Chests",
+   "Ancient Isle for 200,000 C$ ( 5940 , 265 , 900 )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Eclipse_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/b/be/Eclipse_Totem.png"
+ },
+ {
+  "name": "Aurora Totem",
+  "type": "Totem",
+  "category": "Weather Condition Totems",
+  "effect": "The Aurora Totem is a totem which sets the weather to Aurora Borealis when interacted with.",
+  "obtain": [
+   "Treasure Chests",
+   "Angler 's Quests",
+   "Daily Shop for 400,000 C$",
+   "Rare Goods Dealer for 500 S$",
+   "75 Various Locations for 500,000 C$ (1 can be purchased per location.)",
+   "Ollie Otter",
+   "Scrap-Bot",
+   "Challenges",
+   "Mined from Astral Crystals in Boreal Pines - Astral Cavern"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Aurora_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/a/aa/Aurora_Totem.png"
+ },
+ {
+  "name": "Starfall Totem",
+  "type": "Totem",
+  "category": "Weather Condition Totems",
+  "effect": "The Starfall Totem is a totem which sets the weather to Starfall when interacted with.",
+  "obtain": [
+   "Fallen Stars",
+   "Personal Aquarium",
+   "Codes",
+   "Angler 's Quests",
+   "Totem Carver",
+   "Sunken Chests",
+   "Black Market for 250,000 C$",
+   "Challenges",
+   "Mined from Astral Crystals in Abyssal Zenith - Astral Cavern"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Starfall_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/9/90/Starfall_Totem.png"
+ },
+ {
+  "name": "Rainbow Totem",
+  "type": "Totem",
+  "category": "Weather Condition Totems",
+  "effect": "The Rainbow Totem is a totem which sets the weather to Rainbow when interacted with.",
+  "obtain": [
+   "Angler 's Quests",
+   "Totem Carver",
+   "Treasure Hunting",
+   "Rare Goods Dealer for 1,000 S$",
+   "Challenges"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Rainbow_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/b/b5/Rainbow_Totem.png"
+ },
+ {
+  "name": "Tropical Sun Totem",
+  "type": "Totem",
+  "category": "Weather Condition Totems",
+  "effect": "The Tropical Sun Totem is a totem which sets the weather to Tropical Sun when interacted with.",
+  "obtain": [
+   "Codes",
+   "Sunshell Merchant for 15,000 Sunshells"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Tropical_Sun_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/4/4a/Tropical_Sun_Totem.png"
+ },
+ {
+  "name": "Meteor Totem",
+  "type": "Totem",
+  "category": "Localized Events Totems",
+  "effect": "The Meteor Totem is a totem which summons a Meteor when interacted with.",
+  "obtain": [
+   "Personal Aquarium",
+   "Sunken Chests",
+   "Treasure Chests",
+   "Daily Shop for 15,000 C$",
+   "Roslit Volcano for 75,000 C$ ( -1945 , 275 , 230 )",
+   "Maple Meadow for 75,000 C$ ( -447 , 134 , 3496 )",
+   "Challenges"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Meteor_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/d/da/Meteor_Totem.png"
+ },
+ {
+  "name": "Avalanche Totem",
+  "type": "Totem",
+  "category": "Localized Events Totems",
+  "effect": "The Avalanche Totem is a totem which starts an Avalanche when interacted with.",
+  "obtain": [
+   "Northern Expedition for 150,000 C$ ( 19711 , 468 , 6059 )",
+   "Mined from Astral Crystals in Cryogenic Canal - Astral Cavern"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Avalanche_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/9/9e/Avalanche_Totem.png"
+ },
+ {
+  "name": "Blizzard Totem",
+  "type": "Totem",
+  "category": "Localized Events Totems",
+  "effect": "The Blizzard Totem is a totem which starts a Blizzard when interacted with.",
+  "obtain": [
+   "Northern Expedition for 150,000 C$ ( 20148 , 743 , 5804 )",
+   "Mined from Astral Crystals in Cryogenic Canal - Astral Cavern"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Blizzard_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/f/ff/Blizzard_Totem.png"
+ },
+ {
+  "name": "Zeus Storm Totem",
+  "type": "Totem",
+  "category": "Localized Events Totems",
+  "effect": "The Zeus Storm Totem is a totem which starts a Zeus Storm when interacted with. Additionally, all players in Zeus's Sanctuary have a 50% chance to be \"Struck Down\" when the totem is used, killing them and awarding the ' Chosen By Zeus ' Title .",
+  "obtain": [
+   "Zeus's Sanctuary for 150,000 C$ ( -4325 , -625 , 2685 )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Zeus_Storm_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/1/17/Zeus_Storm_Totem.png"
+ },
+ {
+  "name": "Poseidon Wrath Totem",
+  "type": "Totem",
+  "category": "Localized Events Totems",
+  "effect": "The Poseidon Wrath Totem is a totem which starts a Poseidon Wrath when interacted with.",
+  "obtain": [
+   "Poseidon Temple for 150,000 C$ ( -3955 , -555 , 855 )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Poseidon_Wrath_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/b/b9/Poseidon_Wrath_Totem.png"
+ },
+ {
+  "name": "Blue Moon Totem",
+  "type": "Totem",
+  "category": "Localized Events Totems",
+  "effect": "The Blue Moon Totem is a totem which starts a Blue Moon when interacted with.",
+  "obtain": [
+   "Personal Aquarium",
+   "Snowcap Island for 1,200,000 C$ ( 2717 , 141 , 2480 )",
+   "Challenges",
+   "Mined from Astral Crystals in Snowcap Island - Astral Cavern"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Blue_Moon_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/b/b4/Blue_Moon_Totem.png"
+ },
+ {
+  "name": "Bloom Totem",
+  "type": "Totem",
+  "category": "Localized Events Totems",
+  "effect": "The Bloom Totem is a totem which resets all flowers in Living Garden and Verdant Pocket when interacted with.",
+  "obtain": [
+   "Living Garden 's NPC ' Quests",
+   "Gardener 's Exchanges ( 20% chance)"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Bloom_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/6/65/Bloom_Totem.png"
+ },
+ {
+  "name": "Shiny Totem",
+  "type": "Totem",
+  "category": "Localized Events Totems",
+  "effect": "The Shiny Totem is a totem which starts a Shiny Surge when interacted with.",
+  "obtain": [
+   "Personal Aquarium",
+   "Codes",
+   "Totem Carver",
+   "Daily Shop for 250,000 C$",
+   "Challenges",
+   "Ollie Otter"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Shiny_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/a/a0/Shiny_Totem.png"
+ },
+ {
+  "name": "Sparkling Totem",
+  "type": "Totem",
+  "category": "Localized Events Totems",
+  "effect": "The Sparkling Totem is a totem which starts a Day/Night of the Luminous when interacted with.",
+  "obtain": [
+   "Personal Aquarium",
+   "Codes",
+   "Totem Carver",
+   "Daily Shop for 250,000 C$",
+   "Challenges"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Sparkling_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/2/2a/Sparkling_Totem.png"
+ },
+ {
+  "name": "Mutation Totem",
+  "type": "Totem",
+  "category": "Localized Events Totems",
+  "effect": "The Mutation Totem is a totem which starts a Mutation Surge when interacted with.",
+  "obtain": [
+   "Personal Aquarium",
+   "Codes",
+   "Daily Shop for 200,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Mutation_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/f/f1/Mutation_Totem.png"
+ },
+ {
+  "name": "Dripstone Collapse Totem",
+  "type": "Totem",
+  "category": "Localized Events Totems",
+  "effect": "The Dripstone Collapse Totem is a totem which starts a Dripstone Collapse when interacted with.",
+  "obtain": [
+   "Personal Aquarium",
+   "Codes",
+   "Tidefall for 7,500,000 C$ ( 3158 , -1105 , 788 )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Dripstone_Collapse_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/0/0e/Dripstone_Collapse_Totem.png"
+ },
+ {
+  "name": "Megalodon Hunt Totem",
+  "type": "Totem",
+  "category": "Localized Events Totems",
+  "effect": "The Megalodon Hunt Totem is a totem which starts a Megalodon Hunt when interacted with.",
+  "obtain": [
+   "Personal Aquarium",
+   "Codes",
+   "Totem Carver",
+   "Mysterious Songstress 's Fifth Quest",
+   "Daily Shop for 80,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Megalodon_Hunt_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/6/66/Megalodon_Hunt_Totem.png"
+ },
+ {
+  "name": "Kraken Hunt Totem",
+  "type": "Totem",
+  "category": "Localized Events Totems",
+  "effect": "The Kraken Hunt Totem is a totem which starts a Kraken Hunt when interacted with.",
+  "obtain": [
+   "Personal Aquarium",
+   "Codes",
+   "Totem Carver",
+   "Daily Shop for 80,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Kraken_Hunt_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/9/93/Kraken_Hunt_Totem.png"
+ },
+ {
+  "name": "Colossal Dragon Hunt Totem",
+  "type": "Totem",
+  "category": "Localized Events Totems",
+  "effect": "The Colossal Dragon Hunt Totem is a totem which starts a Colossal Ethereal Dragon Hunt , Colossal Ancient Dragon Hunt , or Colossal Blue Dragon Hunt when interacted with.",
+  "obtain": [
+   "Personal Aquarium",
+   "Codes",
+   "Daily Shop for 90,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Colossal_Dragon_Hunt_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/f/f8/Colossal_Dragon_Hunt_Totem.png"
+ },
+ {
+  "name": "Scylla Hunt Totem",
+  "type": "Totem",
+  "category": "Localized Events Totems",
+  "effect": "The Scylla Hunt Totem is a totem which starts a Scylla Hunt when interacted with.",
+  "obtain": [
+   "Personal Aquarium",
+   "Codes",
+   "Totem Carver",
+   "Daily Shop for 100,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Scylla_Hunt_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/a/a6/Scylla_Hunt_Totem.png"
+ },
+ {
+  "name": "Cursed Storm Totem",
+  "type": "Totem",
+  "category": "Localized Events Totems",
+  "effect": "The Cursed Storm Totem is a totem which starts a Cursed Storm when interacted with.",
+  "obtain": [
+   "Rare Goods Dealer for 50 S$",
+   "Daily Shop for 600,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Cursed_Storm_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/b/b6/Cursed_Storm_Totem.png"
+ },
+ {
+  "name": "Brine Storm Totem",
+  "type": "Totem",
+  "category": "Localized Events Totems",
+  "effect": "The Brine Storm Totem is a totem which starts a Brine Storm when interacted with. Additionally, it can only be used during Rain .",
+  "obtain": [
+   "Axel's Quest",
+   "Rare Goods Dealer for 750 S$",
+   "Ollie Otter"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Brine_Storm_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/d/d7/Brine_Storm_Totem.png"
+ },
+ {
+  "name": "Frost Moon Totem",
+  "type": "Totem",
+  "category": "Limited/Unobtainable Totems",
+  "effect": "The Frost Moon Totem is a totem which sets the weather to Frost Moon when interacted with. It could be obtained through the following means:",
+  "obtain": [
+   "Glaciar Ridge for 5,000 Bells ( 7043 , 150 , -17934 )"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Frost_Moon_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/1/14/Frost_Moon_Totem.png"
+ },
+ {
+  "name": "Frightful Pool Totem",
+  "type": "Totem",
+  "category": "Limited/Unobtainable Totems",
+  "effect": "The Frightful Pool Totem is a totem which spawned a random Frightful Pool when interacted with. It could be obtained through the following means:",
+  "obtain": [
+   "Flying Dutchman for 3,000 Candy",
+   "Black Market (Week 4-6) for 200,000,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Frightful_Pool_Totem",
+  "group": "Totems",
+  "image": "https://static.wikitide.net/fischwiki/6/6b/Frightful_Pool_Totem.png"
+ },
+ {
+  "name": "Bestiary",
+  "type": "Starter Items",
+  "group": "Tools",
+  "category": "Starter Items",
+  "effect": "Opens the 'Bestiary' menu, where all Fish and Rods are catalogued and sorted by 'All' or location .",
+  "obtain": [],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Bestiary",
+  "image": "https://static.wikitide.net/fischwiki/3/3d/BestiaryRed.png"
+ },
+ {
+  "name": "Equipment Bag",
+  "type": "Starter Items",
+  "group": "Tools",
+  "category": "Starter Items",
+  "effect": "Opens the 'Equipment Bag' menu for equipping Fishing Rods , Skins , Baits , Bobbers , Lanterns , Spears , Accessories and Halos .",
+  "obtain": [],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Equipment_Bag",
+  "image": "https://static.wikitide.net/fischwiki/0/0b/Equipment_Bag.png"
+ },
+ {
+  "name": "File:Fischer's Journal.png Fischer's Journal",
+  "type": "Starter Items",
+  "group": "Tools",
+  "category": "Starter Items",
+  "effect": "Displays the player's stats.",
+  "obtain": [],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Special:Upload?wpDestFile=Fischer%27s_Journal.png",
+  "image": null
+ },
+ {
+  "name": "Flimsy Rod",
+  "type": "Starter Items",
+  "group": "Tools",
+  "category": "Starter Items",
+  "effect": "Essential for one's fishing journey. The item is used in place of the player's equipped rod. Left-click to throw out a bobber, and again to cancel fishing.",
+  "obtain": [],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Flimsy_Rod",
+  "image": "https://static.wikitide.net/fischwiki/e/e5/Flimsy_Rod.png"
+ },
+ {
+  "name": "Companion Satchel",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Opens the 'Companion Satchel' menu for equipping Companions and Companion Skins",
+  "obtain": [
+   "Level 30"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Companion_Satchel",
+  "image": "https://static.wikitide.net/fischwiki/b/b2/Companion_Satchel.png"
+ },
+ {
+  "name": "GPS",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Displays the player's positional information in X , Y , Z coordinates.",
+  "obtain": [
+   "100 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/GPS",
+  "image": "https://static.wikitide.net/fischwiki/7/72/GPS.png"
+ },
+ {
+  "name": "Drill",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Previously allowws the player to drill rocks at both Roslit Bay and Marianas's layers .",
+  "obtain": [
+   "Submarine Depot"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Drill",
+  "image": "https://static.wikitide.net/fischwiki/8/88/Drill.png"
+ },
+ {
+  "name": "Pickaxe",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Can be used to obtain the Blue Energy Crystal , complete part of Meteor Maniac Matthew 's second quest, enter the cave with the lever in Overgrowth Caves and for mining Dripstones at Tidefall .",
+  "obtain": [
+   "5,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Pickaxe",
+  "image": "https://static.wikitide.net/fischwiki/b/b7/Pickaxe.png"
+ },
+ {
+  "name": "Translator",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Used to understand Glorp 's language.",
+  "obtain": [
+   "Dr. Crookspine quest"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Translator",
+  "image": "https://static.wikitide.net/fischwiki/9/92/Translator.png"
+ },
+ {
+  "name": "Fish Radar",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Toggles visibility of Fish Abundances , with exception to hidden abundances.",
+  "obtain": [
+   "8,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Fish_Radar",
+  "image": "https://static.wikitide.net/fischwiki/c/cd/Fish_Radar.png"
+ },
+ {
+  "name": "Heart Of Zeus",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Previously allowed the player to enter Atlantis from the crevice at Grand Reef .",
+  "obtain": [
+   "-"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Heart_Of_Zeus",
+  "image": "https://static.wikitide.net/fischwiki/3/37/Heart_Of_Zeus.png"
+ },
+ {
+  "name": "Tidebreaker",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "For very-fast exploration. The Tidebreaker can reach speeds of ~60 studs/second.",
+  "obtain": [
+   "40,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Tidebreaker",
+  "image": "https://static.wikitide.net/fischwiki/4/40/Tidebreaker.png"
+ },
+ {
+  "name": "Deep Lens",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Used with Telescope .",
+  "obtain": [
+   "Astronomer Vega"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Deep_Lens",
+  "image": "https://static.wikitide.net/fischwiki/3/3a/Deep_Lens.png"
+ },
+ {
+  "name": "Experimental Lens",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Used with Telescope .",
+  "obtain": [
+   "Astronomer Vega"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Experimental_Lens",
+  "image": "https://static.wikitide.net/fischwiki/a/ad/Experimental_Lens.png"
+ },
+ {
+  "name": "Moonlit Lens",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Used with Telescope .",
+  "obtain": [
+   "Astronomer Vega"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Moonlit_Lens",
+  "image": "https://static.wikitide.net/fischwiki/3/34/Moonlit_Lens.png"
+ },
+ {
+  "name": "Seasonal Lens",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Used with Telescope .",
+  "obtain": [
+   "Astronomer Vega"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Seasonal_Lens",
+  "image": "https://static.wikitide.net/fischwiki/8/83/Seasonal_Lens.png"
+ },
+ {
+  "name": "Stellar Lens",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Used with Telescope .",
+  "obtain": [
+   "Astronomer Vega and Brayden"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Stellar_Lens",
+  "image": "https://static.wikitide.net/fischwiki/6/6d/Stellar_Lens.png"
+ },
+ {
+  "name": "Dreamer's Amulet",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Allows access to The Sanctum in Cultist Lair & to complete The Restless One's First Quest. Requires 5 quest items from the following NPCs: Sythra , Maelira , Kareth , Varn , Eldran .",
+  "obtain": [
+   "Amulet (NPC) ( Cultist Lair )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Dreamer%27s_Amulet",
+  "image": "https://static.wikitide.net/fischwiki/4/41/Dreamer%27s_Amulet.png"
+ },
+ {
+  "name": "Temple Eye",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Teleports player to the center of Forgotten Temple .",
+  "obtain": [
+   "Jungle Adventurer"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Temple_Eye",
+  "image": "https://static.wikitide.net/fischwiki/7/79/Temple_Eye.png"
+ },
+ {
+  "name": "Cleansing Potion",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Removes all Status Effects.",
+  "obtain": [
+   "25 Dark Wisps"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Cleansing_Potion",
+  "image": "https://static.wikitide.net/fischwiki/6/6f/Cleansing_Potion.png"
+ },
+ {
+  "name": "File:Newspaper.png Newspaper",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Allows viewing previous updates' logs.",
+  "obtain": [
+   "Henry"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Special:Upload?wpDestFile=Newspaper.png",
+  "image": null
+ },
+ {
+  "name": "Weather Matrix",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Spawns any Weather except Tornado , Frost Moon , and Tropical Sun , with a 60 minute cooldown.",
+  "obtain": [
+   "Angler Quests"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Weather_Matrix",
+  "image": "https://static.wikitide.net/fischwiki/6/6a/Weather_Matrix.png"
+ },
+ {
+  "name": "Traveler's Whistle",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Allows the player to teleport to Above The Clouds and the sub-locations of Mariana's Veil , Northern Expedition , Atlantis , Vertigo , Lost Jungle , Desolate Deep , Cultist Lair , and Tidefall , free of charge. The player must be within the vicinity of the said locations to teleport, with the exceptions being Vertigo and Treasure Island .",
+  "obtain": [
+   "250,000 C$ from Traveling Merchant"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Traveler%27s_Whistle",
+  "image": "https://static.wikitide.net/fischwiki/3/32/Traveler%27s_Whistle.png"
+ },
+ {
+  "name": "Magic Mirror",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Teleports player to Moosewood .",
+  "obtain": [
+   "50,000 C$ from Traveling Merchant"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Magic_Mirror",
+  "image": "https://static.wikitide.net/fischwiki/1/1d/Magic_Mirror.png"
+ },
+ {
+  "name": "Mystic Mirror",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Allows the player to set a warp point, and teleport to it at anytime.",
+  "obtain": [
+   "Purchasing from Merlin"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Mystic_Mirror",
+  "image": "https://static.wikitide.net/fischwiki/b/be/Mystic_Mirror.png"
+ },
+ {
+  "name": "Firework",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Can be activated for a cool display of light. Purely cosmetic.",
+  "obtain": [
+   "130 C$ from Travelling Merchant"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Firework",
+  "image": "https://static.wikitide.net/fischwiki/2/24/Firework.png"
+ },
+ {
+  "name": "Living Lotus",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Necessary for obtaining Bloomspire: Blooming Splendor .",
+  "obtain": [
+   "Planting Living Seed at Living Garden"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Living_Lotus",
+  "image": "https://static.wikitide.net/fischwiki/b/b1/Living_Lotus.png"
+ },
+ {
+  "name": "Crab Cage",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Can be placed in any body of water for collecting fish.",
+  "obtain": [
+   "45 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Crab_Cage",
+  "image": "https://static.wikitide.net/fischwiki/d/df/Crab_Cage.png"
+ },
+ {
+  "name": "Abyssal Tonic",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Can be used to significantly slow down the effect of Pressure .",
+  "obtain": [
+   "500 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Abyssal_Tonic",
+  "image": "https://static.wikitide.net/fischwiki/e/ed/Abyssal_Tonic.png"
+ },
+ {
+  "name": "Battery",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Used in Telescope",
+  "obtain": [
+   "Astronomer Vega"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Battery",
+  "image": "https://static.wikitide.net/fischwiki/6/6d/Battery.png"
+ },
+ {
+  "name": "Conception Conch",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Opens a portal that teleports people to their specific spawn point.",
+  "obtain": [
+   "444 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Conception_Conch",
+  "image": "https://static.wikitide.net/fischwiki/6/62/Conception_Conch.png"
+ },
+ {
+  "name": "Coral Crab Cage",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Can be placed in any body of water for collecting fish.",
+  "obtain": [
+   "1,500 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Coral_Crab_Cage",
+  "image": "https://static.wikitide.net/fischwiki/9/9b/Coral_Crab_Cage.png"
+ },
+ {
+  "name": "Shell",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Rarely found along shorelines or as extra catch while fishing (1%). Can be given to Calyra for a random Shell, at a fee of 3,500 C$ .",
+  "obtain": [
+   "-"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Shell_(Item)",
+  "image": "https://static.wikitide.net/fischwiki/7/71/Shell_%28Item%29.png"
+ },
+ {
+  "name": "TNT",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Obtainable in the skull after flipping all 5 levers in Forsaken Shores . Necessary for obtaining the Heart Of Zeus .",
+  "obtain": [
+   "Forsaken Shores"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/TNT",
+  "image": "https://static.wikitide.net/fischwiki/1/1e/TNT.png"
+ },
+ {
+  "name": "Treasure Map",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Displays full coordinates and an arrow leading to a Treasure Chest once \"revealed\".",
+  "obtain": [
+   "Rare Finds ( 0.5% )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Treasure_Map",
+  "image": "https://static.wikitide.net/fischwiki/2/25/Treasure_Map.png"
+ },
+ {
+  "name": "Companion Candy",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Grants a Companion 1500 Companion XP.",
+  "obtain": [
+   "• Daily Challenger ( 17% ) • Treasure Chests ( 1.19% ) • Weekly Challenger ( 25% )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Companion_Candy",
+  "image": "https://static.wikitide.net/fischwiki/e/ed/Companion_Candy.png"
+ },
+ {
+  "name": "Golden Crab Cage",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Can be placed in any body of water for collecting fish.",
+  "obtain": [
+   "25,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Golden_Crab_Cage",
+  "image": "https://static.wikitide.net/fischwiki/c/cf/Golden_Crab_Cage.png"
+ },
+ {
+  "name": "Reinforced Battery",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Obtainable after collecting all Lens and interacting with Dr. Crookspine . Used in Telescope .",
+  "obtain": [
+   "Astronomer Vega"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Reinforced_Battery",
+  "image": "https://static.wikitide.net/fischwiki/5/51/Reinforced_Battery.png"
+ },
+ {
+  "name": "Siren's Tear",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Guarantees a +30% Fishing Rod Upgrade .",
+  "obtain": [
+   "Ryusei 's 'Wish of the Sky' quest"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Siren%27s_Tear",
+  "image": "https://static.wikitide.net/fischwiki/6/66/Siren%27s_Tear.png"
+ },
+ {
+  "name": "Bloop Whistle",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Summons a Baby Bloop Fish Hunt .",
+  "obtain": [
+   "• 500,000 C$ from Daily Shop • Angler 's quests ( 1.6% ) • Personal Aquarium ( 0.1% ) • Treasure Chests ( 1.23% )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Bloop_Whistle",
+  "image": "https://static.wikitide.net/fischwiki/e/e7/Bloop_Whistle.png"
+ },
+ {
+  "name": "Requis Essence",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Necessary for obtaining Requiem and Thalassar's Ruin . Used for Fishing Rod Upgrade .",
+  "obtain": [
+   "• Mining dripstones during Dripstone Collapse ( 5% ) • Tidefall NPCs quests • Personal Aquarium ( 0.05% chance)"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Requis_Essence",
+  "image": "https://static.wikitide.net/fischwiki/c/c8/Requis_Essence.png"
+ },
+ {
+  "name": "Thalass Essence",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Necessary for obtaining Thalassar's Ruin . Used for Fishing Rod Upgrade .",
+  "obtain": [
+   "• Mining dripstones during Dripstone Collapse ( 5% ) • Tidefall NPCs quests • Personal Aquarium ( 0.05% chance)"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Thalass_Essence",
+  "image": "https://static.wikitide.net/fischwiki/4/49/Thalass_Essence.png"
+ },
+ {
+  "name": "Tide Essence",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Necessary for obtaining Tidemourner and Thalassar's Ruin . Used for Fishing Rod Upgrade .",
+  "obtain": [
+   "• Mining dripstones during Dripstone Collapse ( 5% ) • Tidefall NPCs quests • Personal Aquarium ( 0.05% chance)"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Tide_Essence",
+  "image": "https://static.wikitide.net/fischwiki/5/50/Tide_Essence.png"
+ },
+ {
+  "name": "Stardust Candy",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Can be used to tame Comet .",
+  "obtain": [
+   "Meteor Maniac Matthew 's questline"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Stardust_Candy",
+  "image": "https://static.wikitide.net/fischwiki/9/9b/Stardust_Candy.png"
+ },
+ {
+  "name": "Toxic Lotus",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Necessary for obtaining Bloomspire: Twisted Toxins .",
+  "obtain": [
+   "Growing Rotted Seed at Living Garden"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Toxic_Lotus",
+  "image": "https://static.wikitide.net/fischwiki/b/b1/Toxic_Lotus.png"
+ },
+ {
+  "name": "Disturbance Catalyst",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Immediately accumulates 1,000 Risk in the location it was thrown in.",
+  "obtain": [
+   "• 1,000 S$ from Rare Goods Dealer • Challenges • Scrap-Bot's passive."
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Disturbance_Catalyst",
+  "image": "https://static.wikitide.net/fischwiki/1/16/Disturbance_Catalyst.png"
+ },
+ {
+  "name": "Empowered Disturbance Catalyst",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Immediataly accumulates 100,000 Risk in the location it was thrown in.",
+  "obtain": [
+   "Challenges"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Empowered_Disturbance_Catalyst",
+  "image": "https://static.wikitide.net/fischwiki/6/65/Empowered_Disturbance_Catalyst.png"
+ },
+ {
+  "name": "Nico Potion",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Grants the Nico Status Effect.",
+  "obtain": [
+   "3,333,333 C$ from Black Market"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Nico_Potion",
+  "image": "https://static.wikitide.net/fischwiki/e/e4/Nico_Potion.png"
+ },
+ {
+  "name": "Atomic Nuke",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Depending on the outcome of the minigame, it will either detonate creating a pool in which Atomic fish can be caught, lasting 45 minutes; or be stored in the player's Inventory (Identical in effect to the regular Nuke ).",
+  "obtain": [
+   "Rare Finds ( 0.0013% )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Atomic_Nuke",
+  "image": "https://static.wikitide.net/fischwiki/e/ea/Atomic_Nuke.png"
+ },
+ {
+  "name": "Cursed Nuke",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Depending on the outcome of the minigame, it will either detonate creating a pool in which Nuclear fish can be caught, lasting 30 minutes; or be stored in the player's Inventory (Identical in effect to the regular Nuke ).",
+  "obtain": [
+   "Personal Aquarium ( 0.001% )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Cursed_Nuke",
+  "image": "https://static.wikitide.net/fischwiki/1/1e/Cursed_Nuke.png"
+ },
+ {
+  "name": "Nuke",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Depending on the outcome of the minigame, it will either detonate creating a pool in which Nuclear fish can be caught, lasting 30 minutes; or be stored in the player's Inventory.",
+  "obtain": [
+   "• 1,000,000 C$ from Daily Shop • Rare Finds ( 0.01% )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Nuke",
+  "image": "https://static.wikitide.net/fischwiki/e/ec/Nuke.png"
+ },
+ {
+  "name": "Shady Nuke",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "When detonated, it creates a pool in which Shady fish can be caught, lasting 30 minutes (Identical in effect to the regular Nuke ).",
+  "obtain": [
+   "10,000 S$ from Rare Goods Dealer"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Shady_Nuke",
+  "image": "https://static.wikitide.net/fischwiki/1/16/Shady_Nuke.png"
+ },
+ {
+  "name": "Awakening Serum",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Spawns a Photic Terrosunder Hunt when thrown into The Sunken Reservoir during a Dust Storm",
+  "obtain": [
+   "Obtainable after completing Paleontologist Petri 's 2nd quest for free every hour"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Awakening_Serum",
+  "image": "https://static.wikitide.net/fischwiki/4/4b/Awakening_Serum.png"
+ },
+ {
+  "name": "Corrupt Shell",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Obtainable by giving Calyra a Shell at a ~3.33% chance. Grants a random Shell effect for any time between 5 and 60 minutes.",
+  "obtain": [
+   "3,500 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Corrupt_Shell",
+  "image": "https://static.wikitide.net/fischwiki/6/64/Corrupt_Shell.png"
+ },
+ {
+  "name": "Noxious Catalyst",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Used to spawn a Toxic Boil that lasts for 10 minutes with +10 Disturbance and +25% Progress Speed.",
+  "obtain": [
+   "Mad Chemist"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Noxious_Catalyst",
+  "image": "https://static.wikitide.net/fischwiki/f/fe/Noxious_Catalyst.png"
+ },
+ {
+  "name": "Prototype Noxious Catalyst",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Used to spawn a Toxic Boil that lasts for 10 minutes .",
+  "obtain": [
+   "Mad Chemist's quest."
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Prototype_Noxious_Catalyst",
+  "image": "https://static.wikitide.net/fischwiki/9/95/Prototype_Noxious_Catalyst.png"
+ },
+ {
+  "name": "Shell of Depth",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Obtainable by giving Calyra a Shell at a 20% chance. Grants the Depth effect for 30 minutes: • +20% Fish Size • +inf Max Kg • +50 Line Distance",
+  "obtain": [
+   "3,500 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Shell_of_Depth",
+  "image": "https://static.wikitide.net/fischwiki/6/67/Shell_of_Depth.png"
+ },
+ {
+  "name": "Shell of Endurance",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Obtainable by giving Calyra a Shell at a 20% chance. Grants the Endurance effect for 30 minutes: • +0.05 Control • +20% Resilience",
+  "obtain": [
+   "3,500 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Shell_of_Endurance",
+  "image": "https://static.wikitide.net/fischwiki/9/9c/Shell_of_Endurance.png"
+ },
+ {
+  "name": "Shell of Fortune",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Obtainable by giving Calyra a Shell at a 20% chance. Grants the Fortune effect for 30 minutes: • +50% Luck • 25% chance to duplicate fish • +25% Natural Mutation chance (does not apply to Appraising)",
+  "obtain": [
+   "3,500 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Shell_of_Fortune",
+  "image": "https://static.wikitide.net/fischwiki/1/1b/Shell_of_Fortune.png"
+ },
+ {
+  "name": "Shell of Swiftness",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Obtainable by giving Calyra a Shell at a 20% chance. Grants the Swiftness effect for 30 minutes: • +20% Movement Speed • +20% Lure Speed • +10% Progress Speed",
+  "obtain": [
+   "3,500 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Shell_of_Swiftness",
+  "image": "https://static.wikitide.net/fischwiki/0/0a/Shell_of_Swiftness.png"
+ },
+ {
+  "name": "Shell of Wrath",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Obtainable by giving Calyra a Shell at a ~16.67% chance. Grants the Wrath effect for 30 minutes: • +25% XP • +5 Disturbance • +200 Durability",
+  "obtain": [
+   "3,500 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Shell_of_Wrath",
+  "image": "https://static.wikitide.net/fischwiki/4/42/Shell_of_Wrath.png"
+ },
+ {
+  "name": "Shark Whistle",
+  "type": "Consumables",
+  "group": "Consumables",
+  "category": "Consumables",
+  "effect": "Summons a random Shark Hunt .",
+  "obtain": [
+   "• Angler 's quests ( 3.2% ) • Personal Aquarium ( 0.2% ) • Treasure Chests ( 4.91% )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Shark_Whistle",
+  "image": "https://static.wikitide.net/fischwiki/7/75/Shark_Whistle.png"
+ },
+ {
+  "name": "All Season Potion",
+  "type": "Potions",
+  "group": "Consumables",
+  "category": "Potions",
+  "effect": "All Seasons — Removes Luck debuffs on Fish that are not in their preferred season — Duration: 3 Hours",
+  "obtain": [
+   "• Personal Aquarium • Challenges"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/All_Season_Potion",
+  "image": "https://static.wikitide.net/fischwiki/6/6d/All_Season_Potion.png"
+ },
+ {
+  "name": "Luck Potion",
+  "type": "Potions",
+  "group": "Consumables",
+  "category": "Potions",
+  "effect": "Lucky+ II — 1.5× Luck — Duration: 15 Minutes",
+  "obtain": [
+   "• Personal Aquarium • Daily Reward • Challenges"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Luck_Potion",
+  "image": "https://static.wikitide.net/fischwiki/4/44/Luck_Potion.png"
+ },
+ {
+  "name": "Glitched Potion",
+  "type": "Potions",
+  "group": "Consumables",
+  "category": "Potions",
+  "effect": "Glitched I — 50% chance to duplicate caught Fish with the Glitched Attribute — Duration: 10 Minutes",
+  "obtain": [
+   "• Personal Aquarium • Bloop Cosmetic Crate • Black Market • Angler Quest • Daily Reward"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Glitched_Potion",
+  "image": "https://static.wikitide.net/fischwiki/f/f2/Glitched_Potion.png"
+ },
+ {
+  "name": "Lure Speed Potion",
+  "type": "Potions",
+  "group": "Consumables",
+  "category": "Potions",
+  "effect": "Lure V — +25% Lure Speed — Duration: 15 Minutes",
+  "obtain": [
+   "• Personal Aquarium • Challenges"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Lure_Speed_Potion",
+  "image": "https://static.wikitide.net/fischwiki/2/2c/Lure_Speed_Potion.png"
+ },
+ {
+  "name": "Moosewood Skin Crate",
+  "type": "Skin Crates",
+  "group": "Consumables",
+  "category": "Skin Crates",
+  "effect": null,
+  "obtain": [
+   "25,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Moosewood_Skin_Crate",
+  "image": "https://static.wikitide.net/fischwiki/9/97/Moosewood_Skin_Crate.png"
+ },
+ {
+  "name": "Desolate Skin Crate",
+  "type": "Skin Crates",
+  "group": "Consumables",
+  "category": "Skin Crates",
+  "effect": null,
+  "obtain": [
+   "75,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Desolate_Skin_Crate",
+  "image": "https://static.wikitide.net/fischwiki/b/bc/Desolate_Skin_Crate.png"
+ },
+ {
+  "name": "Ancient Skin Crate",
+  "type": "Skin Crates",
+  "group": "Consumables",
+  "category": "Skin Crates",
+  "effect": null,
+  "obtain": [
+   "175,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Ancient_Skin_Crate",
+  "image": "https://static.wikitide.net/fischwiki/e/ea/Ancient_Skin_Crate.png"
+ },
+ {
+  "name": "Atlantis Skin Crate",
+  "type": "Skin Crates",
+  "group": "Consumables",
+  "category": "Skin Crates",
+  "effect": null,
+  "obtain": [
+   "250,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Atlantis_Skin_Crate",
+  "image": "https://static.wikitide.net/fischwiki/d/df/Atlantis_Skin_Crate.png"
+ },
+ {
+  "name": "Mariana's Skin Crate",
+  "type": "Skin Crates",
+  "group": "Consumables",
+  "category": "Skin Crates",
+  "effect": null,
+  "obtain": [
+   "700,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Mariana%27s_Skin_Crate",
+  "image": "https://static.wikitide.net/fischwiki/d/d3/Mariana%27s_Skin_Crate.png"
+ },
+ {
+  "name": "Cthulhu Skin Crate",
+  "type": "Skin Crates",
+  "group": "Consumables",
+  "category": "Skin Crates",
+  "effect": null,
+  "obtain": [
+   "250,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Cthulhu_Skin_Crate",
+  "image": "https://static.wikitide.net/fischwiki/b/bd/Cthulhu_Skin_Crate.png"
+ },
+ {
+  "name": "Void Skin Crate",
+  "type": "Skin Crates",
+  "group": "Consumables",
+  "category": "Skin Crates",
+  "effect": null,
+  "obtain": [
+   "15,000,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Void_Skin_Crate",
+  "image": "https://static.wikitide.net/fischwiki/3/39/Void_Skin_Crate.png"
+ },
+ {
+  "name": "Red Marlins Skin Crate",
+  "type": "Skin Crates",
+  "group": "Consumables",
+  "category": "Skin Crates",
+  "effect": null,
+  "obtain": [
+   "1,500,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Red_Marlins_Skin_Crate",
+  "image": "https://static.wikitide.net/fischwiki/a/ab/Red_Marlins_Skin_Crate.png"
+ },
+ {
+  "name": "Midas' Mates Skin Crate",
+  "type": "Skin Crates",
+  "group": "Consumables",
+  "category": "Skin Crates",
+  "effect": null,
+  "obtain": [
+   "1,500,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Midas%27_Mates_Skin_Crate",
+  "image": "https://static.wikitide.net/fischwiki/0/02/Midas%27_Mates_Skin_Crate.png"
+ },
+ {
+  "name": "Ghosts Skin Crate",
+  "type": "Skin Crates",
+  "group": "Consumables",
+  "category": "Skin Crates",
+  "effect": null,
+  "obtain": [
+   "1,500,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Ghosts_Skin_Crate",
+  "image": "https://static.wikitide.net/fischwiki/9/9e/Ghosts_Skin_Crate.png"
+ },
+ {
+  "name": "Friendly Skin Crate",
+  "type": "Skin Crates",
+  "group": "Consumables",
+  "category": "Skin Crates",
+  "effect": null,
+  "obtain": [
+   "Obtained from Friend Quests at a 10% chance."
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Friendly_Skin_Crate",
+  "image": "https://static.wikitide.net/fischwiki/0/0b/Friendly_Skin_Crate.png"
+ },
+ {
+  "name": "Cosmetic Case",
+  "type": "Skin Crates",
+  "group": "Consumables",
+  "category": "Skin Crates",
+  "effect": null,
+  "obtain": [
+   "Obtained from Eggs at a 5.95% chance."
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Cosmetic_Case",
+  "image": "https://static.wikitide.net/fischwiki/3/3d/Cosmetic_Case.png"
+ },
+ {
+  "name": "Megalodon Egg",
+  "type": "Eggs",
+  "group": "Consumables",
+  "category": "Eggs",
+  "effect": null,
+  "obtain": [
+   "Obtained from catching any type of Megalodon in a Megalodon Hunt ( 5% chance), Personal Aquarium ( 0.1% chance), Daily Rewards ."
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Megalodon_Egg",
+  "image": "https://static.wikitide.net/fischwiki/7/73/Megalodon_Egg.png"
+ },
+ {
+  "name": "Kraken Egg",
+  "type": "Eggs",
+  "group": "Consumables",
+  "category": "Eggs",
+  "effect": null,
+  "obtain": [
+   "Obtained from catching any type of Kraken in a Kraken Hunt ( 5% chance), Personal Aquarium ( 0.1% chance), Daily Rewards ."
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Kraken_Egg",
+  "image": "https://static.wikitide.net/fischwiki/8/8b/Kraken_Egg.png"
+ },
+ {
+  "name": "Orca Egg",
+  "type": "Eggs",
+  "group": "Consumables",
+  "category": "Eggs",
+  "effect": null,
+  "obtain": [
+   "Obtained from catching any type of Orca in an Orca Migration ( 5% chance), Personal Aquarium ( 0.1% chance), Daily Rewards ."
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Orca_Egg",
+  "image": "https://static.wikitide.net/fischwiki/b/b7/Orca_Egg.png"
+ },
+ {
+  "name": "Whale Egg",
+  "type": "Eggs",
+  "group": "Consumables",
+  "category": "Eggs",
+  "effect": null,
+  "obtain": [
+   "Obtained from catching any type of Whale in a Blue Whale Migration ( 5% chance), Personal Aquarium ( 0.1% chance), Daily Rewards ."
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Whale_Egg",
+  "image": "https://static.wikitide.net/fischwiki/a/a4/Whale_Egg.png"
+ },
+ {
+  "name": "Back Fins",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Submarine Construction",
+  "obtain": [
+   "Redeeming the TemporarySubmarine Code Code"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Back_Fins",
+  "image": "https://static.wikitide.net/fischwiki/f/f2/Back_Fins.png"
+ },
+ {
+  "name": "Crossbow Arrow",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Crossbow Construction",
+  "obtain": [
+   "Found in the Scylla Boss Fight"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Crossbow_Arrow",
+  "image": "https://static.wikitide.net/fischwiki/4/4b/Crossbow_Arrow.png"
+ },
+ {
+  "name": "Crossbow Base",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Crossbow Construction",
+  "obtain": [
+   "Found in the Scylla Boss Fight"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Crossbow_Base",
+  "image": "https://static.wikitide.net/fischwiki/6/66/Crossbow_Base.png"
+ },
+ {
+  "name": "Crossbow Bow",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Crossbow Construction",
+  "obtain": [
+   "Found in the Scylla Boss Fight"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Crossbow_Bow",
+  "image": "https://static.wikitide.net/fischwiki/d/d1/Crossbow_Bow.png"
+ },
+ {
+  "name": "Cepo's Fragment",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Crimson King's Quest",
+  "obtain": [
+   "Located at -1041 , -330 , -3225 , only accessible upon completing the lever puzzle in Luminescent Cavern and Crimson Cavern"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Cepo%27s_Fragment",
+  "image": "https://static.wikitide.net/fischwiki/5/5f/Cepo%27s_Fragment.png"
+ },
+ {
+  "name": "Rokko's Fragment",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Crimson King's Quest",
+  "obtain": [
+   "Completing Rokko's Quest"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Rokko%27s_Fragment",
+  "image": "https://static.wikitide.net/fischwiki/d/d2/Rokko%27s_Fragment.png"
+ },
+ {
+  "name": "Tilli's Fragment",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Crimson King's Quest",
+  "obtain": [
+   "Completing Tilli's Quest"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Tilli%27s_Fragment",
+  "image": "https://static.wikitide.net/fischwiki/3/3d/Tilli%27s_Fragment.png"
+ },
+ {
+  "name": "Vimble's Fragment",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Crimson King's Quest",
+  "obtain": [
+   "Completing Vimble's Quest"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Vimble%27s_Fragment",
+  "image": "https://static.wikitide.net/fischwiki/9/9e/Vimble%27s_Fragment.png"
+ },
+ {
+  "name": "Wixie's Fragment",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Crimson King's Quest",
+  "obtain": [
+   "Completing Wixie's Quest"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Wixie%27s_Fragment",
+  "image": "https://static.wikitide.net/fischwiki/5/5b/Wixie%27s_Fragment.png"
+ },
+ {
+  "name": "Glyph Rune",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Mossjaw Rest's Access",
+  "obtain": [
+   "Completing Puzzle Room I"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Glyph_Rune",
+  "image": "https://static.wikitide.net/fischwiki/0/01/Glyph_Rune.png"
+ },
+ {
+  "name": "Toxic Rune",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Mossjaw Rest's Access",
+  "obtain": [
+   "Completing Puzzle Room II"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Toxic_Rune",
+  "image": "https://static.wikitide.net/fischwiki/2/29/Toxic_Rune.png"
+ },
+ {
+  "name": "Spike Rune",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Mossjaw Rest's Access",
+  "obtain": [
+   "Completing Puzzle Room III"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Spike_Rune",
+  "image": "https://static.wikitide.net/fischwiki/2/28/Spike_Rune.png"
+ },
+ {
+  "name": "Vine Rune",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Mossjaw Rest's Access",
+  "obtain": [
+   "Completing Puzzle Room IV"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Vine_Rune",
+  "image": "https://static.wikitide.net/fischwiki/8/88/Vine_Rune.png"
+ },
+ {
+  "name": "Water Rune",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Mossjaw Rest's Access",
+  "obtain": [
+   "Completing Puzzle Room V"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Water_Rune",
+  "image": "https://static.wikitide.net/fischwiki/5/56/Water_Rune.png"
+ },
+ {
+  "name": "Eldran's Amulet Fragment",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Cultist Lair Amulet Crafting",
+  "obtain": [
+   "Completing Eldran's Quest"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Eldran%27s_Amulet_Fragment",
+  "image": "https://static.wikitide.net/fischwiki/8/87/Eldran%27s_Amulet_Fragment.png"
+ },
+ {
+  "name": "Kareth's Amulet Fragment",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Cultist Lair Amulet Crafting",
+  "obtain": [
+   "Completing Kareth's Quest"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Kareth%27s_Amulet_Fragment",
+  "image": "https://static.wikitide.net/fischwiki/1/19/Kareth%27s_Amulet_Fragment.png"
+ },
+ {
+  "name": "Maelira's Amulet Fragment",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Cultist Lair Amulet Crafting",
+  "obtain": [
+   "Completing Maelira's Quest"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Maelira%27s_Amulet_Fragment",
+  "image": "https://static.wikitide.net/fischwiki/4/4a/Maelira%27s_Amulet_Fragment.png"
+ },
+ {
+  "name": "Sythra's Amulet Fragment",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Cultist Lair Amulet Crafting",
+  "obtain": [
+   "Completing Sythra's Quest"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Sythra%27s_Amulet_Fragment",
+  "image": "https://static.wikitide.net/fischwiki/0/0e/Sythra%27s_Amulet_Fragment.png"
+ },
+ {
+  "name": "Varn's Amulet Fragment",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Cultist Lair Amulet Crafting",
+  "obtain": [
+   "Completing Varn's Quest"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Varn%27s_Amulet_Fragment",
+  "image": "https://static.wikitide.net/fischwiki/8/85/Varn%27s_Amulet_Fragment.png"
+ },
+ {
+  "name": "Shard of Embers",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Rift Challenges",
+  "obtain": [
+   "Completing Red Rift challenge"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Shard_of_Embers",
+  "image": "https://static.wikitide.net/fischwiki/6/6e/Shard_of_Embers.png"
+ },
+ {
+  "name": "Shard of Nebulas",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Rift Challenges",
+  "obtain": [
+   "Completing Purple Rift challenge"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Shard_of_Nebulas",
+  "image": "https://static.wikitide.net/fischwiki/2/27/Shard_of_Nebulas.png"
+ },
+ {
+  "name": "Shard of Roots",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Rift Challenges",
+  "obtain": [
+   "Completing Green Rift challenge"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Shard_of_Roots",
+  "image": "https://static.wikitide.net/fischwiki/a/ad/Shard_of_Roots.png"
+ },
+ {
+  "name": "Shard of Tides",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Rift Challenges",
+  "obtain": [
+   "Completing Blue Rift challenge"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Shard_of_Tides",
+  "image": "https://static.wikitide.net/fischwiki/d/df/Shard_of_Tides.png"
+ },
+ {
+  "name": "Shard of Time",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Mineshaft Items",
+  "obtain": [
+   "Solving the Pedestal Puzzle"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Shard_of_Time",
+  "image": "https://static.wikitide.net/fischwiki/1/17/Shard_of_Time.png"
+ },
+ {
+  "name": "The Cut Gem",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Mineshaft Items",
+  "obtain": [
+   "Solving the Minecart Puzzle"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/The_Cut_Gem",
+  "image": "https://static.wikitide.net/fischwiki/3/37/The_Cut_Gem.png"
+ },
+ {
+  "name": "The Rough Geode",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Mineshaft Items",
+  "obtain": [
+   "Destroying Rubbles"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/The_Rough_Geode",
+  "image": "https://static.wikitide.net/fischwiki/5/54/The_Rough_Geode.png"
+ },
+ {
+  "name": "Bellona Sword",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Royal Guard 1 Missing Helmet Quest",
+  "obtain": [
+   "First sword located at -8954 , -2288 , 104"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Bellona_Sword",
+  "image": "https://static.wikitide.net/fischwiki/9/9e/Bellona_Sword.png"
+ },
+ {
+  "name": "Royal Helmet",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Royal Guard 1 Missing Helmet Quest",
+  "obtain": [
+   "Located at -8473 , -2361 , 727"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Royal_Helmet",
+  "image": "https://static.wikitide.net/fischwiki/8/8a/Royal_Helmet.png"
+ },
+ {
+  "name": "Cracked Aegis Shard",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Royal Guard 3 Shattered Shield Quest",
+  "obtain": [
+   "Located at -8740 , -2360 , 685"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Cracked_Aegis_Shard",
+  "image": "https://static.wikitide.net/fischwiki/b/b4/Cracked_Aegis_Shard.png"
+ },
+ {
+  "name": "Shattered Aegis Shard",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Royal Guard 3 Shattered Shield Quest",
+  "obtain": [
+   "Located at -9040 , -2345 , 1045"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Shattered_Aegis_Shard",
+  "image": "https://static.wikitide.net/fischwiki/6/66/Shattered_Aegis_Shard.png"
+ },
+ {
+  "name": "Sunken Aegis Shard",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Royal Guard 3 Shattered Shield Quest",
+  "obtain": [
+   "Obtained by fishing in Bellona's domains with a chance of 1/150 . A pity system exists where every catch boosts pity by 1, if it failed to obtain the Sunken Aegis Shard. The equation is 1/(200-<pity>) ."
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Sunken_Aegis_Shard",
+  "image": "https://static.wikitide.net/fischwiki/2/29/Sunken_Aegis_Shard.png"
+ },
+ {
+  "name": "Bloodied Aegis Shard",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Royal Guard 3 Shattered Shield Quest",
+  "obtain": [
+   "Obtained by fishing during War Surge with a chance of 1/100 . A pity system exists where every catch boosts pity by 1, if it failed to obtain the Bloodied Aegis Shard. The equation is 1/(133-<pity>) ."
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Bloodied_Aegis_Shard",
+  "image": "https://static.wikitide.net/fischwiki/5/5f/Bloodied_Aegis_Shard.png"
+ },
+ {
+  "name": "Legionnaire's Aegis Shard",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Royal Guard 3 Shattered Shield Quest",
+  "obtain": [
+   "Obtained after catching a Legionnaire Lamprey"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Legionnaire%27s_Aegis_Shard",
+  "image": "https://static.wikitide.net/fischwiki/6/60/Legionnaire%27s_Aegis_Shard.png"
+ },
+ {
+  "name": "Unrefined Magnetite Core",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Paleontologist Petri's quest",
+  "obtain": [
+   "Located at -6291 , 213 , -1831"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Unrefined_Magnetite_Core",
+  "image": "https://static.wikitide.net/fischwiki/3/37/Unrefined_Magnetite_Core.png"
+ },
+ {
+  "name": "Rusted Bunker Key [?] Old iron, orange with rust. Fits something on Birch Cay.",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Carbon 's Quest",
+  "obtain": [
+   "At the top of the \"turtle head\" in Terrapin Island at 108 , 220 , 1775 ."
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Rusted_Bunker_Key",
+  "image": "https://static.wikitide.net/fischwiki/5/58/Rusted_Bunker_Key.png"
+ },
+ {
+  "name": "Bag of Chips [?] Cruncky, orange, and loud. Somebody out there needs these more than you do .",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Carbon 's Quest",
+  "obtain": [
+   "In a secret room behind a wall in The Bunker at 1825 , -320 , -2440 ."
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Bag_of_Chips",
+  "image": "https://static.wikitide.net/fischwiki/f/f3/Bag_of_Chips.png"
+ },
+ {
+  "name": "Deep Survey Device (Inactive)",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Beacon Towers Activation",
+  "obtain": [
+   "Obtained after talking to Cadet Shimmerfin's quest Required to start The Deep 's main questline."
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Deep_Survey_Device_(Inactive)",
+  "image": "https://static.wikitide.net/fischwiki/e/e9/Deep_Survey_Device_%28Inactive%29.png"
+ },
+ {
+  "name": "Abyssal Lens",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Beacon Towers Activation",
+  "obtain": [
+   "Completing The Cartographer's Quest"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Abyssal_Lens",
+  "image": null
+ },
+ {
+  "name": "Bioluminescent Battery",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Beacon Towers Activation",
+  "obtain": [
+   "Completing Dr. Vane's Quest"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Bioluminescent_Battery",
+  "image": null
+ },
+ {
+  "name": "Hydro-Core",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Beacon Towers Activation",
+  "obtain": [
+   "Completing Hunter Dan's Quest"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Hydro-Core",
+  "image": null
+ },
+ {
+  "name": "Reinforced Housing",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Beacon Towers Activation",
+  "obtain": [
+   "Completing Sledge's Quest"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Reinforced_Housing",
+  "image": null
+ },
+ {
+  "name": "Dyson Sphere",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Merlin's ' Rod of the Singularity ' quest",
+  "obtain": [
+   "Completing Corvus's quest"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Dyson_Sphere",
+  "image": "https://static.wikitide.net/fischwiki/b/b8/Dyson_Sphere.png"
+ },
+ {
+  "name": "Lighthouse Sky Crystal",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Abaia's Chamber's Access",
+  "obtain": [
+   "Located at 675 , 250 , 315 (Requires Idol Favor Level 0)"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Lighthouse_Sky_Crystal",
+  "image": "https://static.wikitide.net/fischwiki/a/a5/Lighthouse_Sky_Crystal.png"
+ },
+ {
+  "name": "Aquatic Sky Crystal",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Abaia's Chamber's Access",
+  "obtain": [
+   "Obtained as extra catch by fishing under the arch at Terrapin Island . (Requires Idol Favor Level 3)"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Aquatic_Sky_Crystal",
+  "image": "https://static.wikitide.net/fischwiki/3/32/Aquatic_Sky_Crystal.png"
+ },
+ {
+  "name": "Campfire Sky Crystal",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Abaia's Chamber's Access",
+  "obtain": [
+   "Completing Ashe's request (Requires Idol Favor Level 5)"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Campfire_Sky_Crystal",
+  "image": "https://static.wikitide.net/fischwiki/5/5a/Campfire_Sky_Crystal.png"
+ },
+ {
+  "name": "Icy Sky Crystal",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Abaia's Chamber's Access",
+  "obtain": [
+   "Completing Wilson's request (Requires Idol Favor Level 8)"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Icy_Sky_Crystal",
+  "image": "https://static.wikitide.net/fischwiki/2/2f/Icy_Sky_Crystal.png"
+ },
+ {
+  "name": "Skull Sky Crystal",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Abaia's Chamber's Access",
+  "obtain": [
+   "Completing Jack Marrow's request (Requires Idol Favor Level 12)"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Skull_Sky_Crystal",
+  "image": "https://static.wikitide.net/fischwiki/9/96/Skull_Sky_Crystal.png"
+ },
+ {
+  "name": "Living Sky Crystal",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Abaia's Chamber's Access",
+  "obtain": [
+   "Located at -5095 , -1753 , -10179 (Requires Idol Favor Level 15)"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Living_Sky_Crystal",
+  "image": "https://static.wikitide.net/fischwiki/4/4c/Living_Sky_Crystal.png"
+ },
+ {
+  "name": "Mountain Sky Crystal",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Abaia's Chamber's Access",
+  "obtain": [
+   "Located at 367 , 145 , -2307 (Requires Idol Favor Level 20)"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Mountain_Sky_Crystal",
+  "image": "https://static.wikitide.net/fischwiki/f/f1/Mountain_Sky_Crystal.png"
+ },
+ {
+  "name": "Prismatic Sky Crystal",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Abaia's Chamber's Access",
+  "obtain": [
+   "Completing Meteoriticist's request (Requires Idol Favor Level 30)"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Prismatic_Sky_Crystal",
+  "image": "https://static.wikitide.net/fischwiki/f/f9/Prismatic_Sky_Crystal.png"
+ },
+ {
+  "name": "Divine Sky Crystal",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Abaia's Chamber's Access",
+  "obtain": [
+   "Located at 20005 , 910 , 5438 (Requires Idol Favor Level 40)"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Divine_Sky_Crystal",
+  "image": "https://static.wikitide.net/fischwiki/2/2c/Divine_Sky_Crystal.png"
+ },
+ {
+  "name": "Infernal Sky Crystal",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Abaia's Chamber's Access",
+  "obtain": [
+   "Located at -4706 , -697 , -2053 (Requires Idol Favor Level 50)"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Infernal_Sky_Crystal",
+  "image": "https://static.wikitide.net/fischwiki/7/7d/Infernal_Sky_Crystal.png"
+ },
+ {
+  "name": "Driftwood",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Precision Rod (2×), Wisdom Rod (2× Mythical ), Resourceful Rod (2× Lunar ), Seasons Rod (3× Frozen ), Riptide Rod (3× Atlantean ), Vineweaver Rod (1× Vined ), Toxic Spire Rod (1× Poisoned ), Poison-Tipped Spear (1× Poisoned ), Barbed Spear (1× Shrouded ), Scarlet Spincaster Rod (3× Hexed )",
+  "obtain": [
+   "Fishing (Various Locations)"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Driftwood",
+  "image": "https://static.wikitide.net/fischwiki/6/63/Driftwood.png"
+ },
+ {
+  "name": "Scrap Metal",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Lucid Rod (1× Cursed Touch ), Anchor n' Chain (10×)",
+  "obtain": [
+   "Fishing (Various Locations)"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Scrap_Metal",
+  "image": "https://static.wikitide.net/fischwiki/8/82/Scrap_Metal.png"
+ },
+ {
+  "name": "Seaweed",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Dead Man's Rod (1× Putrid )",
+  "obtain": [
+   "Fishing (Various Locations)"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Seaweed",
+  "image": "https://static.wikitide.net/fischwiki/1/13/Seaweed.png"
+ },
+ {
+  "name": "Mauve Pearl",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Vineweaver Rod (1× Vined )",
+  "obtain": [
+   "Clams ( Roslit Bay , 7.83% )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Mauve_Pearl",
+  "image": "https://static.wikitide.net/fischwiki/f/fc/Mauve_Pearl.png"
+ },
+ {
+  "name": "Ancient Wood",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: The Lost Rod (3×)",
+  "obtain": [
+   "Fishing ( Sunstone Island )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Ancient_Wood",
+  "image": "https://static.wikitide.net/fischwiki/d/d5/Ancient_Wood.png"
+ },
+ {
+  "name": "Moon Wood",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Celestial Rod (3×)",
+  "obtain": [
+   "Fishing ( Snowcap Island )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Moon_Wood",
+  "image": "https://static.wikitide.net/fischwiki/e/e1/Moon_Wood.png"
+ },
+ {
+  "name": "Void Wood",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Voyager Rod (3×)",
+  "obtain": [
+   "Fishing ( Keepers Altar ), or from Fallen Stars"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Void_Wood",
+  "image": "https://static.wikitide.net/fischwiki/d/d2/Void_Wood.png"
+ },
+ {
+  "name": "Inferno Wood",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Rod Of The Eternal King (3×)",
+  "obtain": [
+   "Fishing ( Roslit Volcano )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Inferno_Wood",
+  "image": "https://static.wikitide.net/fischwiki/7/7e/Inferno_Wood.png"
+ },
+ {
+  "name": "Golden Sea Pearl",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Rod Of The Eternal King (2×), Elder Mossripper (1× Shrouded )",
+  "obtain": [
+   "Clams ( Roslit Bay , 0.16% )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Golden_Sea_Pearl",
+  "image": "https://static.wikitide.net/fischwiki/c/c8/Golden_Sea_Pearl.png"
+ },
+ {
+  "name": "Amethyst",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Precision Rod (1×), Resourceful Rod (3×)",
+  "obtain": [
+   "Meteors ( 41.1% ) Personal Aquarium 's hourly items ( 0.7% chance)"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Amethyst",
+  "image": "https://static.wikitide.net/fischwiki/2/2e/Amethyst.png"
+ },
+ {
+  "name": "Lapis Lazuli",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: The Lost Rod (3×)",
+  "obtain": [
+   "Meteors ( 4.1% ) Personal Aquarium 's hourly items ( 0.2% chance)"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Lapis_Lazuli",
+  "image": "https://static.wikitide.net/fischwiki/9/9f/Lapis_Lazuli.png"
+ },
+ {
+  "name": "Moonstone",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Celestial Rod (2×), Tidemourner (1× Mourned ), Relic Piercer (3×)",
+  "obtain": [
+   "Meteors ( 1.4% ) Personal Aquarium 's hourly items ( 0.01% chance)"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Moonstone",
+  "image": "https://static.wikitide.net/fischwiki/b/b6/Moonstone.png"
+ },
+ {
+  "name": "Ruby",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Wisdom Rod (1×), Riptide Rod (3×)",
+  "obtain": [
+   "Meteors ( 27.4% ) Personal Aquarium 's hourly items ( 0.5% chance)"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Ruby",
+  "image": "https://static.wikitide.net/fischwiki/a/a9/Ruby.png"
+ },
+ {
+  "name": "Opal",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Seasons Rod (2×), Voyager Rod (3×), Terrotrapper (1× Fossilized )",
+  "obtain": [
+   "Meteors ( 13.7% ) Personal Aquarium 's hourly items ( 0.3% chance)"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Opal",
+  "image": "https://static.wikitide.net/fischwiki/3/3c/Opal.png"
+ },
+ {
+  "name": "Magic Thread",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Precision Rod (1×), Resourceful Rod (1×), Riptide Rod (1×), Seasons Rod (1×), Voyager Rod (1×), Wisdom Rod (1×)",
+  "obtain": [
+   "Treasure Chests ( 16% ); Fishing (Anywhere, 7% chance) Personal Aquarium 's hourly items ( 1% chance)"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Magic_Thread",
+  "image": "https://static.wikitide.net/fischwiki/7/7d/Magic_Thread.png"
+ },
+ {
+  "name": "Ancient Thread",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: The Lost Rod (1×), Celestial Rod (1×)",
+  "obtain": [
+   "Treasure Chests ( 9.5% ); Fishing (Anywhere, 0.5% chance) Personal Aquarium 's hourly items ( 0.5% chance)"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Ancient_Thread",
+  "image": "https://static.wikitide.net/fischwiki/e/e6/Ancient_Thread.png"
+ },
+ {
+  "name": "Lunar Thread",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Rod Of The Eternal King (1×), Rod Of The Forgotten Fang (1×), Spiritbinder (3×), Lucid Rod (1×)",
+  "obtain": [
+   "Treasure Chests ( 3% chance); Fishing (Anywhere during a Moonlit Mirage , 0.1% chance) Purchased for 250,000 C$ at the Daily Shop ( 0.63% chance); Found within Fallen Stars ( 10% chance) Personal Aquarium 's hourly items ( 0.1% chance)"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Lunar_Thread",
+  "image": "https://static.wikitide.net/fischwiki/d/dd/Lunar_Thread.png"
+ },
+ {
+  "name": "Battery Casing",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Battery (1×)",
+  "obtain": [
+   "Astral Crystals , Fishing ( Mineshaft , 1% )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Battery_Casing",
+  "image": "https://static.wikitide.net/fischwiki/6/69/Battery_Casing.png"
+ },
+ {
+  "name": "Barbed Spearhead",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Barbed Spear (1×)",
+  "obtain": [
+   "Completing Puzzle Room I in the Forgotten Temple"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Barbed_Spearhead",
+  "image": "https://static.wikitide.net/fischwiki/a/aa/Barbed_Spearhead.png"
+ },
+ {
+  "name": "Line of the Skies",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Abaia's Spite (1×)",
+  "obtain": [
+   "Keeper of the Sky's Sixth quest"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Line_of_the_Skies",
+  "image": "https://static.wikitide.net/fischwiki/3/32/Line_of_the_Skies.png"
+ },
+ {
+  "name": "Lucid Reel",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Lucid Rod (1×)",
+  "obtain": [
+   "Completing Tessael 's Quest"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Lucid_Reel",
+  "image": "https://static.wikitide.net/fischwiki/7/77/Lucid_Reel.png"
+ },
+ {
+  "name": "Poisonous Spearhead",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Poison-Tipped Spear (1×)",
+  "obtain": [
+   "Completing Puzzle Room IV in the Forgotten Temple"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Poisonous_Spearhead",
+  "image": "https://static.wikitide.net/fischwiki/4/45/Poisonous_Spearhead.png"
+ },
+ {
+  "name": "Vine Line",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Vineweaver Rod (1×)",
+  "obtain": [
+   "Completing Puzzle Room IV in the Forgotten Temple"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Vine_Line",
+  "image": "https://static.wikitide.net/fischwiki/c/c0/Vine_Line.png"
+ },
+ {
+  "name": "Colossal Blue Dragon",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Scarlet Spincaster Rod (1× Hexed )",
+  "obtain": [
+   "Fishing ( Luminescent Cavern , during a Colossal Blue Dragon Hunt )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Colossal_Blue_Dragon",
+  "image": "https://static.wikitide.net/fischwiki/7/74/Colossal_Blue_Dragon.png"
+ },
+ {
+  "name": "Evil Sigil",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Evil Pitchfork (1×)",
+  "obtain": [
+   "Completing Crimson King's quest"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Evil_Sigil",
+  "image": "https://static.wikitide.net/fischwiki/0/04/Evil_Sigil.png"
+ },
+ {
+  "name": "Tidemourner Head",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Tidemourner (1×)",
+  "obtain": [
+   "Purchased for 750,000 C$ at the Tidefall"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Tidemourner_Head",
+  "image": "https://static.wikitide.net/fischwiki/1/14/Tidemourner_Head.png"
+ },
+ {
+  "name": "Dead Man's Tentacle",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Dead Man's Rod",
+  "obtain": [
+   "Sunken Chest ( 0.015% ) Mythic Sunken Chest ( 0.7% )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Dead_Man%27s_Tentacle",
+  "image": "https://static.wikitide.net/fischwiki/2/22/Dead_Man%27s_Tentacle.png"
+ },
+ {
+  "name": "Elder Mossjaw",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Elder Mossripper (1×)",
+  "obtain": [
+   "Fishing ( Mossjaw Rest , during an Elder Mossjaw Hunt )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Elder_Mossjaw",
+  "image": "https://static.wikitide.net/fischwiki/1/11/Elder_Mossjaw.png"
+ },
+ {
+  "name": "Oversized Leaf",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Gardenkeeper Rod (10×)",
+  "obtain": [
+   "Fishing ( Living Garden )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Oversized_Leaf",
+  "image": "https://static.wikitide.net/fischwiki/3/35/Oversized_Leaf.png"
+ },
+ {
+  "name": "Cyan Lotus",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Gardenkeeper Rod (1×)",
+  "obtain": [
+   "Growing Cyan Seed from Flowers ( 8% ) in Garden Beds"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Cyan_Lotus",
+  "image": "https://static.wikitide.net/fischwiki/3/3a/Cyan_Lotus.png"
+ },
+ {
+  "name": "Mysterious Skull",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Marrow Rod (1×)",
+  "obtain": [
+   "Purchased for 150,000 C$ at Dunehaven Merchant"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Mysterious_Skull",
+  "image": "https://static.wikitide.net/fischwiki/a/a7/Mysterious_Skull.png"
+ },
+ {
+  "name": "Plesiosaur",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Requiem (1× Fossilized )",
+  "obtain": [
+   "Fishing ( Tidefall Castle , during a Plesiosaur Hunt )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Plesiosaur",
+  "image": "https://static.wikitide.net/fischwiki/4/43/Plesiosaur.png"
+ },
+ {
+  "name": "Awakened Omnithal",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Requiem (1×)",
+  "obtain": [
+   "Fishing ( Sunken Reliquary , during an Awakened Omnithal Hunt )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Awakened_Omnithal",
+  "image": "https://static.wikitide.net/fischwiki/9/9d/Awakened_Omnithal.png"
+ },
+ {
+  "name": "Meg's Fang",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Rod Of The Forgotten Fang (2×)",
+  "obtain": [
+   "Fishing ( Ancient Isle )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Meg%27s_Fang",
+  "image": "https://static.wikitide.net/fischwiki/0/02/Meg%27s_Fang.png"
+ },
+ {
+  "name": "Terrosunder Skull",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Terrotrapper (1× Marrow )",
+  "obtain": [
+   "Fishing ( Drylands Sand , during a Dust Storm )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Terrosunder_Skull",
+  "image": "https://static.wikitide.net/fischwiki/6/6a/Terrosunder_Skull.png"
+ },
+ {
+  "name": "Dune Thread",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Terrotrapper (1×)",
+  "obtain": [
+   "Fishing ( Drylands , 2% )"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Dune_Thread",
+  "image": "https://static.wikitide.net/fischwiki/b/b6/Dune_Thread.png"
+ },
+ {
+  "name": "Titanium Reel",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Titanium Rod",
+  "obtain": [
+   "Forge Hand Marcus 's First Quest"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Titanium_Reel",
+  "image": "https://static.wikitide.net/fischwiki/3/36/Titanium_Reel.png"
+ },
+ {
+  "name": "Thermal Harpoon",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Titanic Scalder",
+  "obtain": [
+   "Vesper of the Deep 's First Quest"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Thermal_Harpoon",
+  "image": "https://static.wikitide.net/fischwiki/b/b4/Thermal_Harpoon.png"
+ },
+ {
+  "name": "Murky Thread",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Toxic Spire Rod (1×)",
+  "obtain": [
+   "Completing Puzzle Room V in the Forgotten Temple"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Murky_Thread",
+  "image": "https://static.wikitide.net/fischwiki/b/b3/Murky_Thread.png"
+ },
+ {
+  "name": "Toxinburst Handle",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Toxinburst Rod (1×)",
+  "obtain": [
+   "Completing Caleb 's Quest"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Toxinburst_Handle",
+  "image": "https://static.wikitide.net/fischwiki/5/56/Toxinburst_Handle.png"
+ },
+ {
+  "name": "Hourglass Lantern",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Currently serves no purpose.",
+  "obtain": [
+   "Obtained from a AFK Rewards at a 0.02% Chance"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Hourglass_Lantern",
+  "image": "https://static.wikitide.net/fischwiki/a/a1/Hourglass_Lantern.png"
+ },
+ {
+  "name": "Blue Message in a Bottle",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Provided a hint for Blue Conch 's coordinates upon use.",
+  "obtain": [
+   "Drink Server during Fischfest 2"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Blue_Message_in_a_Bottle",
+  "image": "https://static.wikitide.net/fischwiki/9/9b/Blue_Message_in_a_Bottle.png"
+ },
+ {
+  "name": "Egg Basket",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Allowed Egg-Collecting.",
+  "obtain": [
+   "Given upon joining the game during Easter 2"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Egg_Basket",
+  "image": "https://static.wikitide.net/fischwiki/3/3d/Egg_Basket.png"
+ },
+ {
+  "name": "Candy Bucket",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Allowed Trick-or-Treating.",
+  "obtain": [
+   "Given upon joining the game during FischFright 2"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Candy_Bucket",
+  "image": "https://static.wikitide.net/fischwiki/0/09/Candy_Bucket.png"
+ },
+ {
+  "name": "Cake",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Makes a little sound when used.",
+  "obtain": [
+   "Rewarded from FischAnniversary (expired) Code Code"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Cake",
+  "image": "https://static.wikitide.net/fischwiki/f/f0/Cake.png"
+ },
+ {
+  "name": "Christmas Music Box",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "-",
+  "obtain": [
+   "Advent Calendar during Fischmas 2"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Christmas_Music_Box",
+  "image": "https://static.wikitide.net/fischwiki/d/d1/Christmas_Music_Box.png"
+ },
+ {
+  "name": "Frightful Mirror",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Teleported the player to Crook's Hallow .",
+  "obtain": [
+   "Given upon joining the game during FischFright 2"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Frightful_Mirror",
+  "image": "https://static.wikitide.net/fischwiki/6/6f/Frightful_Mirror.png"
+ },
+ {
+  "name": "Frostbreaker",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Slightly faster than Tidebreaker .",
+  "obtain": [
+   "Advent Calendar during Fischmas 2"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Frostbreaker",
+  "image": "https://static.wikitide.net/fischwiki/a/af/Frostbreaker.png"
+ },
+ {
+  "name": "Green Message in a Bottle",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Provided a hint for Green Conch 's coordinates upon use.",
+  "obtain": [
+   "Sand Castle Building minigame during Fischfest 2"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Green_Message_in_a_Bottle",
+  "image": "https://static.wikitide.net/fischwiki/7/76/Green_Message_in_a_Bottle.png"
+ },
+ {
+  "name": "Heartbreak Cake",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Could be thrown to other players.",
+  "obtain": [
+   "1,000 Chocolates"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Heartbreak_Cake",
+  "image": "https://static.wikitide.net/fischwiki/2/21/Heartbreak_Cake.png"
+ },
+ {
+  "name": "Magic Conch",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Teleported the player to Fischfest 1 .",
+  "obtain": [
+   "Given upon joining the game during Fischfest 1"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Magic_Conch",
+  "image": null
+ },
+ {
+  "name": "File:Magical Conch.png Magical Conch",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Teleported the player to Fischfest 2 after completing 50% of Fischfest 2 bestiary.",
+  "obtain": [
+   "Given upon joining the game during Fischfest 2"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Special:Upload?wpDestFile=Magical_Conch.png",
+  "image": null
+ },
+ {
+  "name": "File:Magical Snow Globe.png Magical Snow Globe",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Teleports the player to Fischmas .",
+  "obtain": [
+   "Given upon joining the game during Fischmas"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Special:Upload?wpDestFile=Magical_Snow_Globe.png",
+  "image": null
+ },
+ {
+  "name": "Mysterious Seed",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Currently serves no purpose.",
+  "obtain": [
+   "Oliver's quest"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Mysterious_Seed",
+  "image": "https://static.wikitide.net/fischwiki/6/6f/Mysterious_Seed.png"
+ },
+ {
+  "name": "Orange Message in a Bottle",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Provided a hint for Orange Conch 's coordinates upon use.",
+  "obtain": [
+   "Bonfire Blake during Fischfest 2"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Orange_Message_in_a_Bottle",
+  "image": "https://static.wikitide.net/fischwiki/e/ef/Orange_Message_in_a_Bottle.png"
+ },
+ {
+  "name": "Purple Message in a Bottle",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Provided a hint for Purple Conch 's coordinates upon use.",
+  "obtain": [
+   "6,000 Sunshells from"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Purple_Message_in_a_Bottle",
+  "image": "https://static.wikitide.net/fischwiki/9/91/Purple_Message_in_a_Bottle.png"
+ },
+ {
+  "name": "Red Message in a Bottle",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Provided a hint for Red Conch 's coordinates upon use.",
+  "obtain": [
+   "Jetski Race during Fischfest 2"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Red_Message_in_a_Bottle",
+  "image": "https://static.wikitide.net/fischwiki/6/61/Red_Message_in_a_Bottle.png"
+ },
+ {
+  "name": "Shamrock Coil",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Slightly weaker than Velocity Coil .",
+  "obtain": [
+   "Leprechaun Liam's quest"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Shamrock_Coil",
+  "image": "https://static.wikitide.net/fischwiki/b/b5/Shamrock_Coil.png"
+ },
+ {
+  "name": "Watermelon",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "-",
+  "obtain": [
+   "2,000 Sunshells from Sunshell Merchant"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Watermelon",
+  "image": "https://static.wikitide.net/fischwiki/0/06/Watermelon.png"
+ },
+ {
+  "name": "Yellow Message in a Bottle",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Provided a hint for Yellow Conch 's coordinates upon use.",
+  "obtain": [
+   "Spawns along the Shoreline during Fischfest 2"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Yellow_Message_in_a_Bottle",
+  "image": "https://static.wikitide.net/fischwiki/8/85/Yellow_Message_in_a_Bottle.png"
+ },
+ {
+  "name": "Alpaca Plushie",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "65,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Alpaca_Plushie",
+  "image": "https://static.wikitide.net/fischwiki/3/3a/Alpaca_Plushie.png"
+ },
+ {
+  "name": "Bunch of Balloons",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "100,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Bunch_of_Balloons",
+  "image": "https://static.wikitide.net/fischwiki/5/58/Bunch_of_Balloons.png"
+ },
+ {
+  "name": "Chocolate Milk",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "1,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Chocolate_Milk_(Item)",
+  "image": "https://static.wikitide.net/fischwiki/e/e2/Chocolate_Milk_%28Item%29.png"
+ },
+ {
+  "name": "Cuddly Cat",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "5,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Cuddly_Cat",
+  "image": "https://static.wikitide.net/fischwiki/2/29/Cuddly_Cat.png"
+ },
+ {
+  "name": "Dance Potion",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "10,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Dance_Potion",
+  "image": "https://static.wikitide.net/fischwiki/d/df/Dance_Potion.png"
+ },
+ {
+  "name": "Fire Extinguisher",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "(?) C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Fire_Extinguisher",
+  "image": "https://static.wikitide.net/fischwiki/0/0a/Fire_Extinguisher.png"
+ },
+ {
+  "name": "Fluffy Unicorn",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "200,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Fluffy_Unicorn",
+  "image": "https://static.wikitide.net/fischwiki/5/53/Fluffy_Unicorn.png"
+ },
+ {
+  "name": "Ghost Elixir",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "1,000,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Ghost_Elixir",
+  "image": "https://static.wikitide.net/fischwiki/e/e6/Ghost_Elixir.png"
+ },
+ {
+  "name": "Gravity Coil",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market . Increases jump height.",
+  "obtain": [
+   "1,000,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Gravity_Coil",
+  "image": "https://static.wikitide.net/fischwiki/6/6e/Gravity_Coil.png"
+ },
+ {
+  "name": "Halloween Roped",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "1,600,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Halloween_Roped",
+  "image": "https://static.wikitide.net/fischwiki/3/3a/Halloween_Roped.png"
+ },
+ {
+  "name": "Halloween Sparkler",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "500 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Halloween_Sparkler",
+  "image": "https://static.wikitide.net/fischwiki/c/ce/Halloween_Sparkler.png"
+ },
+ {
+  "name": "Holiday Ham",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "5,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Holiday_Ham",
+  "image": "https://static.wikitide.net/fischwiki/b/b3/Holiday_Ham.png"
+ },
+ {
+  "name": "Hot Chocolate",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "250 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Hot_Chocolate",
+  "image": "https://static.wikitide.net/fischwiki/b/b0/Hot_Chocolate.png"
+ },
+ {
+  "name": "Hyperbike",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "2,000,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Hyperbike",
+  "image": "https://static.wikitide.net/fischwiki/a/ae/Hyperbike.png"
+ },
+ {
+  "name": "Lightblox Jar",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "50,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Lightblox_Jar",
+  "image": "https://static.wikitide.net/fischwiki/c/c9/Lightblox_Jar.png"
+ },
+ {
+  "name": "Lunar Lander",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "100,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Lunar_Lander",
+  "image": "https://static.wikitide.net/fischwiki/9/9f/Lunar_Lander.png"
+ },
+ {
+  "name": "Moneybag",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "2,147,483,647C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Moneybag",
+  "image": "https://static.wikitide.net/fischwiki/d/dd/Moneybag.png"
+ },
+ {
+  "name": "Moonwalk Dance Potion",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "25,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Moonwalk_Dance_Potion",
+  "image": "https://static.wikitide.net/fischwiki/2/2a/Moonwalk_Dance_Potion.png"
+ },
+ {
+  "name": "Mr. Bones",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "77,777 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Mr._Bones",
+  "image": "https://static.wikitide.net/fischwiki/1/11/Mr._Bones.png"
+ },
+ {
+  "name": "Pizza",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "20 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Pizza_(Item)",
+  "image": "https://static.wikitide.net/fischwiki/d/d7/Pizza_%28Item%29.png"
+ },
+ {
+  "name": "Pogo Stick",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "800,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Pogo_Stick",
+  "image": "https://static.wikitide.net/fischwiki/e/e8/Pogo_Stick.png"
+ },
+ {
+  "name": "Puad Launcher",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market . Randomly shoots unfavourited Pufferfish or Mustard from the player's inventory. Players who are shot at receive the Pufferfish or Mustard accordingly, with their Weight, Attribute , and Mutation being preserved, as well as the 🐡💥 Title .",
+  "obtain": [
+   "50,000,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Puad_Launcher",
+  "image": "https://static.wikitide.net/fischwiki/0/0c/Puad_Launcher.png"
+ },
+ {
+  "name": "Race the Sunset",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "100,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Race_the_Sunset",
+  "image": "https://static.wikitide.net/fischwiki/9/9f/Race_the_Sunset.png"
+ },
+ {
+  "name": "Regeneration Coil",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market . Increases health.",
+  "obtain": [
+   "150,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Regeneration_Coil",
+  "image": "https://static.wikitide.net/fischwiki/2/28/Regeneration_Coil.png"
+ },
+ {
+  "name": "Ro-torcycle",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "1,000,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Ro-torcycle",
+  "image": "https://static.wikitide.net/fischwiki/d/df/Ro-torcycle.png"
+ },
+ {
+  "name": "Semi-Speed Coil",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market . Increases walk speed.",
+  "obtain": [
+   "300,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Semi-Speed_Coil",
+  "image": "https://static.wikitide.net/fischwiki/6/6c/Semi-Speed_Coil.png"
+ },
+ {
+  "name": "Skelefriend",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "400,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Skelefriend",
+  "image": "https://static.wikitide.net/fischwiki/4/4f/Skelefriend.png"
+ },
+ {
+  "name": "Skipper Seal",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "1,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Skipper_Seal",
+  "image": "https://static.wikitide.net/fischwiki/6/64/Skipper_Seal.png"
+ },
+ {
+  "name": "Slateskin Potion",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market . Grants the Slateskin Status Effect.",
+  "obtain": [
+   "65,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Slateskin_Potion",
+  "image": "https://static.wikitide.net/fischwiki/7/7d/Slateskin_Potion.png"
+ },
+ {
+  "name": "Snowy Gravity Coil",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market . Increases jump height.",
+  "obtain": [
+   "1,000,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Snowy_Gravity_Coil",
+  "image": "https://static.wikitide.net/fischwiki/3/34/Snowy_Gravity_Coil.png"
+ },
+ {
+  "name": "Teddy Bear",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "25,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Teddy_Bear",
+  "image": "https://static.wikitide.net/fischwiki/c/ce/Teddy_Bear.png"
+ },
+ {
+  "name": "Velocity Coil",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market . Increases walk speed and jump height.",
+  "obtain": [
+   "2,000,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Velocity_Coil",
+  "image": "https://static.wikitide.net/fischwiki/a/a0/Velocity_Coil.png"
+ },
+ {
+  "name": "Witches Brew",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Purchased from Black Market .",
+  "obtain": [
+   "180,000 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Witches_Brew",
+  "image": "https://static.wikitide.net/fischwiki/9/99/Witches_Brew.png"
+ },
+ {
+  "name": "Radio (Legacy)",
+  "type": "Reusable Items",
+  "group": "Tools",
+  "category": "Reusable Items",
+  "effect": "Opens a menu for playing audio. Obtained from Radio gamepass.",
+  "obtain": [
+   "Robux 199"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Radio_(Legacy)",
+  "image": "https://static.wikitide.net/fischwiki/2/27/Radio_%28Legacy%29.png"
+ },
+ {
+  "name": "Fillionaire",
+  "type": "Consumable Items",
+  "group": "Consumables",
+  "category": "Consumable Items",
+  "effect": "Started a 'lottery' minigame to win C$ or other rewards. Made unobtainable in Version 1.67.3 .",
+  "obtain": [
+   "• Treasure Chests • Rick's first quest"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Fillionaire",
+  "image": "https://static.wikitide.net/fischwiki/a/ab/Fillionaire.png"
+ },
+ {
+  "name": "Mermaid's Favor",
+  "type": "Consumable Items",
+  "group": "Consumables",
+  "category": "Consumable Items",
+  "effect": "Grants a +10% C$ bonus for 5 minutes.",
+  "obtain": [
+   "Lorelei's quest"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Mermaid%27s_Favor",
+  "image": "https://static.wikitide.net/fischwiki/7/78/Mermaid%27s_Favor.png"
+ },
+ {
+  "name": "Coconut Cooler",
+  "type": "Consumable Items",
+  "group": "Consumables",
+  "category": "Consumable Items",
+  "effect": "Grants the Coconut Cooler effect for 15 minutes: • +10% Resilience • +5% Forced Progress Speed • +10% Walk Speed",
+  "obtain": [
+   "50 Sunshells from Drink Server"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Coconut_Cooler",
+  "image": "https://static.wikitide.net/fischwiki/6/6b/Coconut_Cooler.png"
+ },
+ {
+  "name": "Dream Orchid",
+  "type": "Consumable Items",
+  "group": "Consumables",
+  "category": "Consumable Items",
+  "effect": "Necessary for obtaining Bloomspire: Slumbering Elegance .",
+  "obtain": [
+   "Oliver's quest"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Dream_Orchid",
+  "image": "https://static.wikitide.net/fischwiki/f/f0/Dream_Orchid.png"
+ },
+ {
+  "name": "Five Leaf Clover",
+  "type": "Consumable Items",
+  "group": "Consumables",
+  "category": "Consumable Items",
+  "effect": "Spawns naturally on any grass around the map during Shamrock Seas . Grants 16× Server Luck for 10 minutes.",
+  "obtain": [
+   "-"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Five_Leaf_Clover",
+  "image": "https://static.wikitide.net/fischwiki/7/76/Five_Leaf_Clover.png"
+ },
+ {
+  "name": "Four Leaf Clover",
+  "type": "Consumable Items",
+  "group": "Consumables",
+  "category": "Consumable Items",
+  "effect": "Spawns naturally on any grass around the map during Shamrock Seas . Grants 2× Server Luck for 5 minutes.",
+  "obtain": [
+   "-"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Four_Leaf_Clover",
+  "image": "https://static.wikitide.net/fischwiki/0/08/Four_Leaf_Clover.png"
+ },
+ {
+  "name": "Gold Coin",
+  "type": "Consumable Items",
+  "group": "Consumables",
+  "category": "Consumable Items",
+  "effect": "Grants a +25% C$ bonus for 30 seconds.",
+  "obtain": [
+   "• Pot o' Gold • Golden Pot o' Gold • Developer Gift"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Gold_Coin",
+  "image": "https://static.wikitide.net/fischwiki/1/1f/Gold_Coin.png"
+ },
+ {
+  "name": "Lagoon Lemonade",
+  "type": "Consumable Items",
+  "group": "Consumables",
+  "category": "Consumable Items",
+  "effect": "Grants the Lagoon Lemonade effect for 15 minutes: • +15% Lure Speed • +10% Progress Speed",
+  "obtain": [
+   "20 Sunshells from Drink Server"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Lagoon_Lemonade",
+  "image": "https://static.wikitide.net/fischwiki/9/96/Lagoon_Lemonade.png"
+ },
+ {
+  "name": "Love Nuke",
+  "type": "Consumable Items",
+  "group": "Consumables",
+  "category": "Consumable Items",
+  "effect": "When detonated, it creates a pool in which Heartburst fish can be caught, lasting 40 minutes (Identical in effect to the regular Nuke ).",
+  "obtain": [
+   "Wishing Well 's Daily Reward ( 10% )"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Love_Nuke",
+  "image": "https://static.wikitide.net/fischwiki/9/95/Love_Nuke.png"
+ },
+ {
+  "name": "New Years Firework Rocket",
+  "type": "Consumable Items",
+  "group": "Consumables",
+  "category": "Consumable Items",
+  "effect": "Purchasable during New Years Countdown . Can be activated for a cool display of light. Purely cosmetic.",
+  "obtain": [
+   "202,600 C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/New_Years_Firework_Rocket",
+  "image": "https://static.wikitide.net/fischwiki/9/90/New_Years_Firework_Rocket.png"
+ },
+ {
+  "name": "New Years Firework",
+  "type": "Consumable Items",
+  "group": "Consumables",
+  "category": "Consumable Items",
+  "effect": "Purchasable during New Years Countdown . Can be activated for a cool display of light. Purely cosmetic.",
+  "obtain": [
+   "2,026C C$"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/New_Years_Firework",
+  "image": "https://static.wikitide.net/fischwiki/d/d5/New_Years_Firework.png"
+ },
+ {
+  "name": "One Leaf Clover",
+  "type": "Consumable Items",
+  "group": "Consumables",
+  "category": "Consumable Items",
+  "effect": "Spawns naturally on any grass around the map during Shamrock Seas . Grants 0.5× Server Luck for 15 minutes.",
+  "obtain": [
+   "-"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/One_Leaf_Clover",
+  "image": "https://static.wikitide.net/fischwiki/9/94/One_Leaf_Clover.png"
+ },
+ {
+  "name": "Pineapple Punch",
+  "type": "Consumable Items",
+  "group": "Consumables",
+  "category": "Consumable Items",
+  "effect": "Grants the Pineapple Punch effect for 15 minutes: • +25% Luck • +25% Natural Mutation Chance",
+  "obtain": [
+   "40 Sunshells from Drink Server"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Pineapple_Punch",
+  "image": "https://static.wikitide.net/fischwiki/f/f8/Pineapple_Punch.png"
+ },
+ {
+  "name": "Sunburst Soda",
+  "type": "Consumable Items",
+  "group": "Consumables",
+  "category": "Consumable Items",
+  "effect": "Grants the Sunburst Soda effect for 15 minutes: • +50 Line Distance • +3 Disturbance",
+  "obtain": [
+   "10 Sunshells from Drink Server"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Sunburst_Soda",
+  "image": "https://static.wikitide.net/fischwiki/d/db/Sunburst_Soda.png"
+ },
+ {
+  "name": "Sunset Smoothie",
+  "type": "Consumable Items",
+  "group": "Consumables",
+  "category": "Consumable Items",
+  "effect": "Grants the Sunset Smoothie effect for 15 minutes: • +10% XP • +10% Fish Weight",
+  "obtain": [
+   "30 Sunshells from Drink Server"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Sunset_Smoothie",
+  "image": "https://static.wikitide.net/fischwiki/f/f2/Sunset_Smoothie.png"
+ },
+ {
+  "name": "Reef Refresher",
+  "type": "Consumable Items",
+  "group": "Consumables",
+  "category": "Consumable Items",
+  "effect": "Grants the Reef Refresher effect for 15 minutes: • +5% True Progress Speed",
+  "obtain": [
+   "25 Sunshells from Drink Server"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Reef_Refresher",
+  "image": "https://static.wikitide.net/fischwiki/b/bd/Reef_Refresher.png"
+ },
+ {
+  "name": "Developer Gift",
+  "type": "Consumable Items",
+  "group": "Consumables",
+  "category": "Consumable Items",
+  "effect": "Obtained from August 15 to August 17, 2026. It could be claimed by pressing the banner on the right side of the screen and accepting the gift. Grants various free items once opened ( see full list ).",
+  "obtain": [
+   "Free"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Developer_Gift",
+  "image": "https://static.wikitide.net/fischwiki/6/66/Developer_Gift.png"
+ },
+ {
+  "name": "Shop Key",
+  "type": "Consumable Items",
+  "group": "Consumables",
+  "category": "Consumable Items",
+  "effect": "Obtained when playing on the launch of Version 1.33.0 and Version 1.34.0 . Grants one free item at random from the currently available Limited Shop .",
+  "obtain": [
+   "Free"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Shop_Key",
+  "image": "https://static.wikitide.net/fischwiki/1/1a/Shop_Key.png"
+ },
+ {
+  "name": "Legendary Cosmetic Case",
+  "type": "Skin Crates",
+  "group": "Consumables",
+  "category": "Skin Crates",
+  "effect": null,
+  "obtain": [
+   "Obtained from a Faberge Egg at a 10% chance."
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Legendary_Cosmetic_Case",
+  "image": "https://static.wikitide.net/fischwiki/0/0b/Legendary_Cosmetic_Case.png"
+ },
+ {
+  "name": "Cursed Cosmetic Case",
+  "type": "Skin Crates",
+  "group": "Consumables",
+  "category": "Skin Crates",
+  "effect": null,
+  "obtain": [
+   "Obtained from a Cursed Egg at a 10% chance."
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Cursed_Cosmetic_Case",
+  "image": "https://static.wikitide.net/fischwiki/8/80/Cursed_Cosmetic_Case.png"
+ },
+ {
+  "name": "Cultist Skin Crate",
+  "type": "Skin Crates",
+  "group": "Consumables",
+  "category": "Skin Crates",
+  "effect": null,
+  "obtain": [
+   "Obtained from the Cursed Seas Countdown event."
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Cultist_Skin_Crate",
+  "image": "https://static.wikitide.net/fischwiki/1/1e/Cultist_Skin_Crate.png"
+ },
+ {
+  "name": "Coral Skin Crate",
+  "type": "Skin Crates",
+  "group": "Consumables",
+  "category": "Skin Crates",
+  "effect": null,
+  "obtain": [
+   "Obtained from Challenges at a 5% chance."
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Coral_Skin_Crate",
+  "image": "https://static.wikitide.net/fischwiki/1/18/Coral_Skin_Crate.png"
+ },
+ {
+  "name": "Faberge Egg",
+  "type": "Eggs",
+  "group": "Consumables",
+  "category": "Eggs",
+  "effect": null,
+  "obtain": [
+   "Purchased from the Egg Merchant in the First Sea ( Robux 99 per egg, Robux 799 for 10 eggs)"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Faberge_Egg",
+  "image": "https://static.wikitide.net/fischwiki/a/a4/Faberge_Egg.png"
+ },
+ {
+  "name": "Cursed Egg",
+  "type": "Eggs",
+  "group": "Consumables",
+  "category": "Eggs",
+  "effect": null,
+  "obtain": [
+   "Purchased from the Egg Merchant in the Second Sea ( Robux 99 per egg, Robux 799 for 10 eggs)"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Cursed_Egg",
+  "image": "https://static.wikitide.net/fischwiki/2/2f/Cursed_Egg.png"
+ },
+ {
+  "name": "Timeless Threading",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Rod Of Time Construction",
+  "obtain": [
+   "From AFK Rewards (0.02% Chance)"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Timeless_Threading",
+  "image": "https://static.wikitide.net/fischwiki/2/2e/Timeless_Threading.png"
+ },
+ {
+  "name": "1000-Year-Old Wood",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Rod Of Time Construction",
+  "obtain": [
+   "From AFK Rewards (0.02% Chance)"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/1000-Year-Old_Wood",
+  "image": "https://static.wikitide.net/fischwiki/c/c1/1000-Year-Old_Wood.png"
+ },
+ {
+  "name": "Ethereal Glass",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Rod Of Time Construction",
+  "obtain": [
+   "From AFK Rewards (12.75% Chance)"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Ethereal_Glass",
+  "image": "https://static.wikitide.net/fischwiki/f/f7/Ethereal_Glass.png"
+ },
+ {
+  "name": "Sand Of Time",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Rod Of Time Construction",
+  "obtain": [
+   "From AFK Rewards (0.33% Chance)"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Sand_Of_Time",
+  "image": "https://static.wikitide.net/fischwiki/3/32/Sand_Of_Time.png"
+ },
+ {
+  "name": "Mythical Essence",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Rod Of Time Construction",
+  "obtain": [
+   "From AFK Rewards (0.18% Chance)"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Mythical_Essence",
+  "image": "https://static.wikitide.net/fischwiki/7/71/Mythical_Essence.png"
+ },
+ {
+  "name": "Eternal Fuel",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Hourglass Boat Construction",
+  "obtain": [
+   "From AFK Rewards (5.5% Chance)"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Eternal_Fuel",
+  "image": "https://static.wikitide.net/fischwiki/5/54/Eternal_Fuel.png"
+ },
+ {
+  "name": "Hourglass Hull",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Hourglass Boat Construction",
+  "obtain": [
+   "From AFK Rewards (0.18% Chance)"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Hourglass_Hull",
+  "image": "https://static.wikitide.net/fischwiki/7/72/Hourglass_Hull.png"
+ },
+ {
+  "name": "Lobster Roll",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Cursed Cage Quest",
+  "obtain": [
+   "Completing Chef Larry's Quest"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Lobster_Roll",
+  "image": "https://static.wikitide.net/fischwiki/6/63/Lobster_Roll.png"
+ },
+ {
+  "name": "Lava Crystal",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Submarine Heat Upgrade",
+  "obtain": [
+   "From drilling Rocks in Volcanic Vents"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Lava_Crystal",
+  "image": "https://static.wikitide.net/fischwiki/f/f9/Lava_Crystal.png"
+ },
+ {
+  "name": "Ice Crystal",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Submarine Ice Upgrade",
+  "obtain": [
+   "From drilling Rocks in Challenger's Deep"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Ice_Crystal",
+  "image": "https://static.wikitide.net/fischwiki/c/ca/Ice_Crystal.png"
+ },
+ {
+  "name": "Blue Frightful Skull",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Access to Nessie's Catacomb",
+  "obtain": [
+   "Blue Frightful Pool"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Blue_Frightful_Skull",
+  "image": "https://static.wikitide.net/fischwiki/c/ce/Blue_Frightful_Skull.png"
+ },
+ {
+  "name": "Green Frightful Skull",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Access to Nessie's Catacomb",
+  "obtain": [
+   "Green Frightful Pool"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Green_Frightful_Skull",
+  "image": "https://static.wikitide.net/fischwiki/a/a2/Green_Frightful_Skull.png"
+ },
+ {
+  "name": "Orange Frightful Skull",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Access to Nessie's Catacomb",
+  "obtain": [
+   "Orange Frightful Pool"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Orange_Frightful_Skull",
+  "image": "https://static.wikitide.net/fischwiki/2/2f/Orange_Frightful_Skull.png"
+ },
+ {
+  "name": "Purple Frightful Skull",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Access to Nessie's Catacomb",
+  "obtain": [
+   "Purple Frightful Pool"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Purple_Frightful_Skull",
+  "image": "https://static.wikitide.net/fischwiki/2/2d/Purple_Frightful_Skull.png"
+ },
+ {
+  "name": "Red Frightful Skull",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Access to Nessie's Catacomb",
+  "obtain": [
+   "Red Frightful Pool"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Red_Frightful_Skull",
+  "image": "https://static.wikitide.net/fischwiki/2/2a/Red_Frightful_Skull.png"
+ },
+ {
+  "name": "Blazed Handle",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Jack-o-Blazer Obtainment",
+  "obtain": [
+   "Witch's Cauldron Rewards"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Blazed_Handle",
+  "image": "https://static.wikitide.net/fischwiki/8/89/Blazed_Handle.png"
+ },
+ {
+  "name": "Haunted Candle",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Jack-o-Blazer Obtainment",
+  "obtain": [
+   "Collected from Dark Candles"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Haunted_Candle",
+  "image": "https://static.wikitide.net/fischwiki/5/5d/Haunted_Candle.png"
+ },
+ {
+  "name": "Wisp",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Jack-o-Blazer Obtainment",
+  "obtain": [
+   "Collected from Glowing Tombstones"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Wisp_(Item)",
+  "image": "https://static.wikitide.net/fischwiki/0/04/Wisp_%28Item%29.png"
+ },
+ {
+  "name": "Essence of Winter",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Cryoshock Cellar's Access",
+  "obtain": [
+   "Fishing at Northstar Village (1/1000)"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Essence_of_Winter",
+  "image": "https://static.wikitide.net/fischwiki/3/3c/Essence_of_Winter.png"
+ },
+ {
+  "name": "Essence of Starfrost",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Cryoshock Cellar's Access",
+  "obtain": [
+   "Catchable anywhere during Frost Moon weather (1/150)"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Essence_of_Starfrost",
+  "image": "https://static.wikitide.net/fischwiki/d/db/Essence_of_Starfrost.png"
+ },
+ {
+  "name": "Everfrost Key",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Cryoshock Cellar's Access",
+  "obtain": [
+   "Completing Strange Whale Quest"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Everfrost_Key",
+  "image": "https://static.wikitide.net/fischwiki/b/bc/Everfrost_Key.png"
+ },
+ {
+  "name": "Dusky Thread",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Astraeus 's Quest",
+  "obtain": [
+   "Completing Merlin's Secret Quest"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Dusky_Thread",
+  "image": "https://static.wikitide.net/fischwiki/8/8a/Dusky_Thread.png"
+ },
+ {
+  "name": "Astronomical Fretboard",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Astraeus 's Quest",
+  "obtain": [
+   "Completing Spirit of Darkness ' Quest"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Astronomical_Fretboard",
+  "image": "https://static.wikitide.net/fischwiki/c/c7/Astronomical_Fretboard.png"
+ },
+ {
+  "name": "Twilight Pegs",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Astraeus 's Quest",
+  "obtain": [
+   "Completing Spirit of Light 's Quest"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Twilight_Pegs",
+  "image": "https://static.wikitide.net/fischwiki/6/61/Twilight_Pegs.png"
+ },
+ {
+  "name": "Cupid's Promise",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Valentine's Day 2026",
+  "obtain": [
+   "Cupid Carl during Valentides 2"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Cupid%27s_Promise",
+  "image": "https://static.wikitide.net/fischwiki/e/e2/Cupid%27s_Promise.png"
+ },
+ {
+  "name": "Candle of Compassion",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Main article: Lanterns of Longing",
+  "obtain": [
+   "Purchasable for 1,000 Chocolates at ( 20677 , 211 , -18022 )"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Candle_of_Compassion",
+  "image": "https://static.wikitide.net/fischwiki/4/4e/Candle_of_Compassion.png"
+ },
+ {
+  "name": "Pink Blossom",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Cupid's Bow Obtainment",
+  "obtain": [
+   "Catchable on Sweet Stream (1/100)"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Pink_Blossom",
+  "image": "https://static.wikitide.net/fischwiki/6/68/Pink_Blossom.png"
+ },
+ {
+  "name": "Red Blossom",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Cupid's Bow Obtainment",
+  "obtain": [
+   "Catchable on Lovestorm Turtle Pools"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Red_Blossom",
+  "image": "https://static.wikitide.net/fischwiki/7/7d/Red_Blossom.png"
+ },
+ {
+  "name": "White Blossom",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Cupid's Bow Obtainment",
+  "obtain": [
+   "Catchable in Sweetheart Shores (1/1000)"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/White_Blossom",
+  "image": "https://static.wikitide.net/fischwiki/3/3d/White_Blossom.png"
+ },
+ {
+  "name": "Crimson Rhythm Handle",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: April Fools 2026 Quest",
+  "obtain": [
+   "Casting the Redlip Batfish Bobber in Hall of Whispers at 4371 , -2234 , -4637"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Crimson_Rhythm_Handle",
+  "image": "https://static.wikitide.net/fischwiki/2/2a/Crimson_Rhythm_Handle.png"
+ },
+ {
+  "name": "Melody Bridge Neck",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: April Fools 2026 Quest",
+  "obtain": [
+   "Casting the Mini Reef Guardian Bobber in Passage of Oaths at 4256 , -2484 , -4732"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Melody_Bridge_Neck",
+  "image": "https://static.wikitide.net/fischwiki/7/7b/Melody_Bridge_Neck.png"
+ },
+ {
+  "name": "Pitchshift Reel",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: April Fools 2026 Quest",
+  "obtain": [
+   "Casting the Not-So-Largemouth Bass Bobber in The Sanctum at 4444 , -2693 , -4748"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Pitchshift_Reel",
+  "image": "https://static.wikitide.net/fischwiki/d/d1/Pitchshift_Reel.png"
+ },
+ {
+  "name": "Strange Guitar",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: April Fools 2026 Quest",
+  "obtain": [
+   "Obtained from Alfie for 1,000,000 C$ after getting Pitchshift Reel , Melody Bridge Neck , and Crimson Rhythm Handle"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Strange_Guitar",
+  "image": "https://static.wikitide.net/fischwiki/1/14/Strange_Guitar.png"
+ },
+ {
+  "name": "Broken Phone",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Tawou 's Quest",
+  "obtain": [
+   "Completing Tawou's Snack Quest"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Broken_Phone",
+  "image": "https://static.wikitide.net/fischwiki/e/eb/Broken_Phone.png"
+ },
+ {
+  "name": "Bouka Phone",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Tawou 's Quest",
+  "obtain": [
+   "Obtained after fixing the Broken Phone"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Bouka_Phone",
+  "image": "https://static.wikitide.net/fischwiki/3/35/Bouka_Phone.png"
+ },
+ {
+  "name": "Magical Leek",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Makh 's Quest",
+  "obtain": [
+   "Redeeming the YESIMBEINGFRTHISISTHEMAKHCODE (expired) Code Code"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Magical_Leek",
+  "image": "https://static.wikitide.net/fischwiki/d/d9/Magical_Leek.png"
+ },
+ {
+  "name": "Soulreaper Handle",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: SOULREAPER Obtainment",
+  "obtain": [
+   "Completing Reapers' 3rd Quest"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Soulreaper_Handle",
+  "image": "https://static.wikitide.net/fischwiki/c/c5/Soulreaper_Handle.png"
+ },
+ {
+  "name": "Soulreaper Blade",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: SOULREAPER Obtainment",
+  "obtain": [
+   "Completing Reapers' 4th Quest"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Soulreaper_Blade",
+  "image": "https://static.wikitide.net/fischwiki/c/c7/Soulreaper_Blade.png"
+ },
+ {
+  "name": "Soulreaper Bonds",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: SOULREAPER Obtainment",
+  "obtain": [
+   "Completing Reapers' 5th Quest"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Soulreaper_Bonds",
+  "image": "https://static.wikitide.net/fischwiki/6/67/Soulreaper_Bonds.png"
+ },
+ {
+  "name": "Time Machine",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Simon 's Quest",
+  "obtain": [
+   "Completing Dr. Crookspine 's Quest"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Time_Machine",
+  "image": "https://static.wikitide.net/fischwiki/f/f1/Time_Machine.png"
+ },
+ {
+  "name": "Corrupted Disc",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Mysterious Shadow 's Quest",
+  "obtain": [
+   "Completing Awakened Witch 's Quest."
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Corrupted_Disc",
+  "image": "https://static.wikitide.net/fischwiki/f/f4/Corrupted_Disc.png"
+ },
+ {
+  "name": "Blue Conch",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Captain Conch 's Quest",
+  "obtain": [
+   "Obtained by following the hint provided by a Blue Message in a Bottle ."
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Blue_Conch",
+  "image": "https://static.wikitide.net/fischwiki/2/27/Blue_Conch.png"
+ },
+ {
+  "name": "Green Conch",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Captain Conch 's Quest",
+  "obtain": [
+   "Obtained by following the hint provided by a Green Message in a Bottle ."
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Green_Conch",
+  "image": "https://static.wikitide.net/fischwiki/b/b5/Green_Conch.png"
+ },
+ {
+  "name": "Orange Conch",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Captain Conch 's Quest",
+  "obtain": [
+   "Obtained by following the hint provided by an Orange Message in a Bottle ."
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Orange_Conch",
+  "image": "https://static.wikitide.net/fischwiki/7/78/Orange_Conch.png"
+ },
+ {
+  "name": "Pink Conch",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Captain Conch 's Quest",
+  "obtain": [
+   "Rewarded from Captain Conch 's 4th quest."
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Pink_Conch",
+  "image": "https://static.wikitide.net/fischwiki/7/78/Pink_Conch.png"
+ },
+ {
+  "name": "Purple Conch",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Captain Conch 's Quest",
+  "obtain": [
+   "Obtained by following the hint provided by a Purple Message in a Bottle ."
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Purple_Conch",
+  "image": "https://static.wikitide.net/fischwiki/4/42/Purple_Conch.png"
+ },
+ {
+  "name": "Red Conch",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Captain Conch 's Quest",
+  "obtain": [
+   "Obtained by following the hint provided by a Red Message in a Bottle ."
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Red_Conch",
+  "image": "https://static.wikitide.net/fischwiki/0/09/Red_Conch.png"
+ },
+ {
+  "name": "Yellow Conch",
+  "type": "Quest Items",
+  "group": "Quest Items",
+  "category": "Quest Items",
+  "effect": "Quest: Captain Conch 's Quest",
+  "obtain": [
+   "Obtained by following the hint provided by a Yellow Message in a Bottle ."
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Yellow_Conch",
+  "image": "https://static.wikitide.net/fischwiki/6/68/Yellow_Conch.png"
+ },
+ {
+  "name": "Cupid's Wings",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Cupid's Embrace (1×)",
+  "obtain": [
+   "Sweetheart Sam's 1st Hint Quest"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Cupid%27s_Wings",
+  "image": "https://static.wikitide.net/fischwiki/3/36/Cupid%27s_Wings.png"
+ },
+ {
+  "name": "Sandy Handle",
+  "type": "Crafting Ingredients",
+  "group": "Crafting",
+  "category": "Crafting Ingredients",
+  "effect": "Used in: Sand Castle Caster (1×)",
+  "obtain": [
+   "Sandy Finn 's 2nd quest"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Sandy_Handle",
+  "image": "https://static.wikitide.net/fischwiki/e/ec/Sandy_Handle.png"
+ },
+ {
+  "name": "Glimmerfin Suit Lvl 1",
+  "type": "Suit",
+  "group": "Equipment",
+  "category": "Suit",
+  "effect": "Reduces heat gain by 0.01°C/s",
+  "obtain": [
+   "Volcanic Vents"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Glimmerfin_Suit_Lvl_1",
+  "image": "https://static.wikitide.net/fischwiki/3/30/Glimmerfin_Suit_Lvl_1.png"
+ },
+ {
+  "name": "Basic Oxygen Tank",
+  "type": "Oxygen Tank",
+  "group": "Equipment",
+  "category": "Oxygen Tank",
+  "effect": "Increases time spent in Northern Expedition by 3×",
+  "obtain": [
+   "Purchasable from Northern Summit for 1,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Basic_Oxygen_Tank",
+  "image": "https://static.wikitide.net/fischwiki/b/b6/Basic_Oxygen_Tank.png"
+ },
+ {
+  "name": "Basic Diving Gear",
+  "type": "Diving Gear",
+  "group": "Equipment",
+  "category": "Diving Gear",
+  "effect": "Increases time spent underwater by 8×",
+  "obtain": [
+   "Purchasable from Moosewood , Desolate Pocket for 3,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Basic_Diving_Gear",
+  "image": "https://static.wikitide.net/fischwiki/0/09/Basic_Diving_Gear.png"
+ },
+ {
+  "name": "Winter Cloak",
+  "type": "Suit",
+  "group": "Equipment",
+  "category": "Suit",
+  "effect": "Provides immunity to cold temperatures",
+  "obtain": [
+   "Purchasable from Northern Expedition for 7,500 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Winter_Cloak",
+  "image": "https://static.wikitide.net/fischwiki/3/33/Winter_Cloak.png"
+ },
+ {
+  "name": "Beginner Oxygen Tank",
+  "type": "Oxygen Tank",
+  "group": "Equipment",
+  "category": "Oxygen Tank",
+  "effect": "Increases time spent in Northern Expedition by 8×",
+  "obtain": [
+   "Purchasable from Overgrowth Caves for 3,500 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Beginner_Oxygen_Tank",
+  "image": "https://static.wikitide.net/fischwiki/5/50/Beginner_Oxygen_Tank.png"
+ },
+ {
+  "name": "Flippers",
+  "type": "Flippers",
+  "group": "Equipment",
+  "category": "Flippers",
+  "effect": "Increases swim speed by +10",
+  "obtain": [
+   "Purchasable from Desolate Deep , Atlantis for 9,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Flippers",
+  "image": "https://static.wikitide.net/fischwiki/1/14/Flippers.png"
+ },
+ {
+  "name": "Advanced Diving Gear",
+  "type": "Diving Gear",
+  "group": "Equipment",
+  "category": "Diving Gear",
+  "effect": "Increases time spent underwater by 15×",
+  "obtain": [
+   "Purchasable from Sunstone Island , Desolate , Atlantis for 15,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Advanced_Diving_Gear",
+  "image": "https://static.wikitide.net/fischwiki/3/3e/Advanced_Diving_Gear.png"
+ },
+ {
+  "name": "Intermediate Oxygen Tank",
+  "type": "Oxygen Tank",
+  "group": "Equipment",
+  "category": "Oxygen Tank",
+  "effect": "Increases time spent in Northern Expedition by 14×",
+  "obtain": [
+   "Purchasable from Frigid Cavern for 10,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Intermediate_Oxygen_Tank",
+  "image": "https://static.wikitide.net/fischwiki/f/fc/Intermediate_Oxygen_Tank.png"
+ },
+ {
+  "name": "Glimmerfin Suit Lvl 2",
+  "type": "Suit",
+  "group": "Equipment",
+  "category": "Suit",
+  "effect": "Reduces heat gain by 0.01°C/s and provides immunity to cold temperatures",
+  "obtain": [
+   "Challenger's Deep"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Glimmerfin_Suit_Lvl_2",
+  "image": "https://static.wikitide.net/fischwiki/6/62/Glimmerfin_Suit_Lvl_2.png"
+ },
+ {
+  "name": "Crow Feather Charm",
+  "type": "Miscellaneous",
+  "group": "Equipment",
+  "category": "Miscellaneous",
+  "effect": "Allows the player to speak with ..? during Todd 's Quest.",
+  "obtain": [
+   "Watchman"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Crow_Feather_Charm",
+  "image": "https://static.wikitide.net/fischwiki/4/40/Crow_Feather_Charm.png"
+ },
+ {
+  "name": "Super Flippers",
+  "type": "Flippers",
+  "group": "Equipment",
+  "category": "Flippers",
+  "effect": "Increases swim speed by +30",
+  "obtain": [
+   "Purchasable from Desolate Deep , Atlantis for 30,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Super_Flippers",
+  "image": "https://static.wikitide.net/fischwiki/9/9c/Super_Flippers.png"
+ },
+ {
+  "name": "Everturn Cloak",
+  "type": "Suit",
+  "group": "Equipment",
+  "category": "Suit",
+  "effect": "Decreases Evil Oakling visibility range",
+  "obtain": [
+   "Thalor Virewood"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Everturn_Cloak",
+  "image": "https://static.wikitide.net/fischwiki/3/3e/Everturn_Cloak.png"
+ },
+ {
+  "name": "Amulet",
+  "type": "Miscellaneous",
+  "group": "Equipment",
+  "category": "Miscellaneous",
+  "effect": "Provides immunity to decay",
+  "obtain": [
+   "Grand Reef"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Amulet",
+  "image": "https://static.wikitide.net/fischwiki/8/8f/Amulet.png"
+ },
+ {
+  "name": "Gas Mask",
+  "type": "Mask",
+  "group": "Equipment",
+  "category": "Mask",
+  "effect": "Reduces toxin gain by 60%/s",
+  "obtain": [
+   "Purchasable from Lost Jungle for 75,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Gas_Mask",
+  "image": "https://static.wikitide.net/fischwiki/2/2e/Gas_Mask.png"
+ },
+ {
+  "name": "Winter Boots",
+  "type": "Heavy Boots",
+  "group": "Equipment",
+  "category": "Heavy Boots",
+  "effect": "+8 walk speed on snow",
+  "obtain": [
+   "Marvin"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Winter_Boots",
+  "image": "https://static.wikitide.net/fischwiki/6/66/Winter_Boots.png"
+ },
+ {
+  "name": "Advanced Oxygen Tank",
+  "type": "Oxygen Tank",
+  "group": "Equipment",
+  "category": "Oxygen Tank",
+  "effect": "Increases time spent in Northern Expedition by 20×",
+  "obtain": [
+   "Purchasable from Glacial Grotto for 25,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Advanced_Oxygen_Tank",
+  "image": "https://static.wikitide.net/fischwiki/5/5e/Advanced_Oxygen_Tank.png"
+ },
+ {
+  "name": "Water Bubble",
+  "type": "Diving Gear",
+  "group": "Equipment",
+  "category": "Diving Gear",
+  "effect": "Increases time spent underwater by 30×",
+  "obtain": [
+   "Purchasable from Bubble Mermaid for 25,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Water_Bubble",
+  "image": "https://static.wikitide.net/fischwiki/3/31/Water_Bubble.png"
+ },
+ {
+  "name": "Veiled Gauntlets",
+  "type": "Gloves",
+  "group": "Equipment",
+  "category": "Gloves",
+  "effect": "Converts 5 - 10% Progress Speed into Forced Progress Speed on Hunt Fish.",
+  "obtain": [
+   "Resonus"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Veiled_Gauntlets",
+  "image": "https://static.wikitide.net/fischwiki/d/d9/Veiled_Gauntlets.png"
+ },
+ {
+  "name": "Angler's Glove",
+  "type": "Gloves",
+  "group": "Equipment",
+  "category": "Gloves",
+  "effect": "Boosts all bait stats by 1.1× . 50% chance to not consume bait.",
+  "obtain": [
+   "Angler"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Angler%27s_Glove",
+  "image": "https://static.wikitide.net/fischwiki/c/c5/Angler%27s_Glove.png"
+ },
+ {
+  "name": "Abyssal Gauntlets",
+  "type": "Gloves",
+  "group": "Equipment",
+  "category": "Gloves",
+  "effect": "Reveals the hooked fish's mutation at the start of the catch. +10% Universal Mutation Chance",
+  "obtain": [
+   "Tenebris"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Abyssal_Gauntlets",
+  "image": "https://static.wikitide.net/fischwiki/f/f1/Abyssal_Gauntlets.png"
+ },
+ {
+  "name": "Deep Survey Device MK I",
+  "type": "Survey Device",
+  "group": "Equipment",
+  "category": "Survey Device",
+  "effect": "Provides immunity to underwater survival.",
+  "obtain": [
+   "Chief Engineer Nereus"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Deep_Survey_Device_MK_I",
+  "image": "https://static.wikitide.net/fischwiki/d/d4/Deep_Survey_Device_MK_I.png"
+ },
+ {
+  "name": "Crest Amulet",
+  "type": "Miscellaneous",
+  "group": "Equipment",
+  "category": "Miscellaneous",
+  "effect": "Allows player to view and equip Charms when interacted with.",
+  "obtain": [
+   "Keeper of the Sky"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Crest_Amulet",
+  "image": "https://static.wikitide.net/fischwiki/7/77/Crest_Amulet.png"
+ },
+ {
+  "name": "Volcanic Gauntlets",
+  "type": "Gloves",
+  "group": "Equipment",
+  "category": "Gloves",
+  "effect": "Every 5 seconds 100% chance to slash for 3% progress. Each slash grants +15% Progress Speed that diminishes over 5 seconds.",
+  "obtain": [
+   "Ignis"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Volcanic_Gauntlets",
+  "image": "https://static.wikitide.net/fischwiki/4/4d/Volcanic_Gauntlets.png"
+ },
+ {
+  "name": "Challenger's Gauntlets",
+  "type": "Gloves",
+  "group": "Equipment",
+  "category": "Gloves",
+  "effect": "15% chance per fish movement to freeze the fish for 1 second, with a cooldown of 3 seconds.",
+  "obtain": [
+   "Glacius"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Challenger%27s_Gauntlets",
+  "image": "https://static.wikitide.net/fischwiki/1/13/Challenger%27s_Gauntlets.png"
+ },
+ {
+  "name": "Calm Gauntlets",
+  "type": "Gloves",
+  "group": "Equipment",
+  "category": "Gloves",
+  "effect": "+3% Shiny / Sparkling Chance +25% Luck",
+  "obtain": [
+   "Luminis"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Calm_Gauntlets",
+  "image": "https://static.wikitide.net/fischwiki/4/42/Calm_Gauntlets.png"
+ },
+ {
+  "name": "Deep Survey Device MK II",
+  "type": "Survey Device",
+  "group": "Equipment",
+  "category": "Survey Device",
+  "effect": "Prevents the player from drowning and highlights the names of roamers .",
+  "obtain": [
+   "Chief Engineer Nereus"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Deep_Survey_Device_MK_II",
+  "image": "https://static.wikitide.net/fischwiki/c/cd/Deep_Survey_Device_MK_II.png"
+ },
+ {
+  "name": "Mariana's Gauntlets",
+  "type": "Gloves",
+  "group": "Equipment",
+  "category": "Gloves",
+  "effect": "• 7.5% chance per fish movement to freeze the fish for 1 second, with a cooldown of 3 seconds. • Converts 2.5 - 5% Progress Speed into Forced Progress Speed on Hunt Fish. • Every 5 seconds 100% chance to slash for 1.5% progress. ▪︎ Each slash grants +7.5% Progress Speed that diminishes over 5 seconds. • Reveals the hooked fish's mutation at the start of the catch. • +5% Universal Mutation Chance • +1.5% Shiny / Sparkling Chance • +12.5% Luck",
+  "obtain": [
+   "Vaelor"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Mariana%27s_Gauntlets",
+  "image": "https://static.wikitide.net/fischwiki/3/36/Mariana%27s_Gauntlets.png"
+ },
+ {
+  "name": "GlimmerSuit Boots",
+  "type": "Running Boots",
+  "group": "Equipment",
+  "category": "Running Boots",
+  "effect": "Increases walk speed by +10",
+  "obtain": [
+   "Dr. Crookspine"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/GlimmerSuit_Boots",
+  "image": "https://static.wikitide.net/fischwiki/2/20/GlimmerSuit_Boots.png"
+ },
+ {
+  "name": "Glimmerfin Suit Lvl 3",
+  "type": "Suit",
+  "group": "Equipment",
+  "category": "Suit",
+  "effect": "Reduces heat gain by 0.01°C/s and provides immunity to cold temperatures",
+  "obtain": [
+   "Abyssal Zenith"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Glimmerfin_Suit_Lvl_3",
+  "image": "https://static.wikitide.net/fischwiki/4/4b/Glimmerfin_Suit_Lvl_3.png"
+ },
+ {
+  "name": "Scoria Armor",
+  "type": "Suit",
+  "group": "Equipment",
+  "category": "Suit",
+  "effect": "Reduces heat gain by 0.75°C/s -10% Movespeed",
+  "obtain": [
+   "Purchasable from Scoria Reach for 75,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Scoria_Armor",
+  "image": "https://static.wikitide.net/fischwiki/6/6a/Scoria_Armor.png"
+ },
+ {
+  "name": "Jack's Treads",
+  "type": "Running Boots",
+  "group": "Equipment",
+  "category": "Running Boots",
+  "effect": "Increases walk speed by +10",
+  "obtain": [
+   "Pumpkin King during FischFright 2"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Jack%27s_Treads",
+  "image": "https://static.wikitide.net/fischwiki/6/67/Jack%27s_Treads.png"
+ },
+ {
+  "name": "Scylla Mask",
+  "type": "Mask",
+  "group": "Equipment",
+  "category": "Mask",
+  "effect": "Increases treat chances 20% when Trick-or-Treating .",
+  "obtain": [
+   "Purchasable from Flying Dutchman (NPC) for 1,500 Candy during FischFright 2"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Scylla_Mask",
+  "image": "https://static.wikitide.net/fischwiki/a/a4/Scylla_Mask.png"
+ },
+ {
+  "name": "Megalodon Mask",
+  "type": "Mask",
+  "group": "Equipment",
+  "category": "Mask",
+  "effect": "Increases candies by 20% when Trick-or-Treating .",
+  "obtain": [
+   "Purchasable from Flying Dutchman (NPC) for 1,500 Candy during FischFright 2"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Megalodon_Mask",
+  "image": "https://static.wikitide.net/fischwiki/6/60/Megalodon_Mask.png"
+ },
+ {
+  "name": "Soulwalker",
+  "type": "Running Boots",
+  "group": "Equipment",
+  "category": "Running Boots",
+  "effect": "+28 walk speed increasing over TBA seconds",
+  "obtain": [
+   "Noiseform Mastery"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Soulwalker",
+  "image": "https://static.wikitide.net/fischwiki/a/ad/Soulwalker.png"
+ },
+ {
+  "name": "Lucky Gloves",
+  "type": "Gloves",
+  "group": "Equipment",
+  "category": "Gloves",
+  "effect": "+25% Luck 10% chance for Lucky Gold (6.14×)",
+  "obtain": [
+   "Leprechaun Logan during Shamrock Seas"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Lucky_Gloves",
+  "image": "https://static.wikitide.net/fischwiki/2/26/Lucky_Gloves.png"
+ },
+ {
+  "name": "Ugly Sweater",
+  "type": "Suit",
+  "group": "Equipment",
+  "category": "Suit",
+  "effect": "Provides immunity to cold temperatures",
+  "obtain": [
+   "Advent Calendar"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Ugly_Sweater",
+  "image": "https://static.wikitide.net/fischwiki/d/df/Ugly_Sweater.png"
+ },
+ {
+  "name": "Snowshoes",
+  "type": "Running Boots",
+  "group": "Equipment",
+  "category": "Running Boots",
+  "effect": "Increases walk speed by +10",
+  "obtain": [
+   "Advent Calendar during Fischmas 2"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Snowshoes",
+  "image": "https://static.wikitide.net/fischwiki/f/f5/Snowshoes.png"
+ },
+ {
+  "name": "Water Shoes",
+  "type": "Heavy Boots",
+  "group": "Equipment",
+  "category": "Heavy Boots",
+  "effect": "Increases swim speed by +12 +12 walk speed on sand",
+  "obtain": [
+   "Bonfire Blake"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Water_Shoes",
+  "image": "https://static.wikitide.net/fischwiki/d/da/Water_Shoes.png"
+ },
+ {
+  "name": "Winter Gloves",
+  "type": "Gloves",
+  "group": "Equipment",
+  "category": "Gloves",
+  "effect": "10% base chance for one of the following mutations: • Peppermint (5×) • Gingerbread (5×) • Merry (5×) During Winter : +20% Progress Speed +10% Resilience 15% base chance for one of the following mutations: • Peppermint (5×) • Gingerbread (5×) • Merry (5×)",
+  "obtain": [
+   "Advent Calendar during Fischmas 2"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Winter_Gloves",
+  "image": "https://static.wikitide.net/fischwiki/0/00/Winter_Gloves.png"
+ },
+ {
+  "name": "Amphibian Boots",
+  "type": "Running Boots",
+  "group": "Equipment",
+  "category": "Running Boots",
+  "effect": "+28 walk speed increasing over 3 seconds + TBA Jump Height",
+  "obtain": [
+   "MiguRod Mastery"
+  ],
+  "limited": true,
+  "sourceUrl": "https://fischipedia.org/wiki/Amphibian_Boots",
+  "image": "https://static.wikitide.net/fischwiki/8/8d/Amphibian_Boots.png"
+ },
+ {
+  "name": "Noise-Cancelling Headphones",
+  "type": "Miscellaneous",
+  "group": "Equipment",
+  "category": "Miscellaneous",
+  "effect": "Disables modifications to fish chances from Admin Events",
+  "obtain": [
+   "Purchasable from Black Market for 499 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Noise-Cancelling_Headphones",
+  "image": "https://static.wikitide.net/fischwiki/6/6e/Noise-Cancelling_Headphones.png"
+ },
+ {
+  "name": "Dunehaven Wraps",
+  "type": "Suit",
+  "group": "Equipment",
+  "category": "Suit",
+  "effect": "Reduces heat gain by 0.09°C/s",
+  "obtain": [
+   "Purchasable from Dunehaven Merchant for 40,000 C$"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Dunehaven_Wraps",
+  "image": "https://static.wikitide.net/fischwiki/9/9b/Dunehaven_Wraps.png"
+ },
+ {
+  "name": "Dune Boots",
+  "type": "Heavy Boots",
+  "group": "Equipment",
+  "category": "Heavy Boots",
+  "effect": "+24 walk speed on sand",
+  "obtain": [
+   "Paleontologist Petri"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Dune_Boots",
+  "image": "https://static.wikitide.net/fischwiki/5/53/Dune_Boots.png"
+ },
+ {
+  "name": "Dune Goggles",
+  "type": "Mask",
+  "group": "Equipment",
+  "category": "Mask",
+  "effect": "Increase player's vision during a Dust Storm",
+  "obtain": [
+   "Paleontologist Petri"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Dune_Goggles",
+  "image": "https://static.wikitide.net/fischwiki/9/92/Dune_Goggles.png"
+ },
+ {
+  "name": "Celestial Waders",
+  "type": "Running Boots",
+  "group": "Equipment",
+  "category": "Running Boots",
+  "effect": "Increases walk speed by +11",
+  "obtain": [
+   "Level 1800"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Celestial_Waders",
+  "image": "https://static.wikitide.net/fischwiki/7/79/Celestial_Waders.png"
+ },
+ {
+  "name": "Voided Glove",
+  "type": "Gloves",
+  "group": "Equipment",
+  "category": "Gloves",
+  "effect": "10% chance to duplicate caught fish with Chaotic (6.2×).",
+  "obtain": [
+   "Level 1900"
+  ],
+  "limited": false,
+  "sourceUrl": "https://fischipedia.org/wiki/Voided_Glove",
+  "image": "https://static.wikitide.net/fischwiki/3/3b/Voided_Glove.png"
+ }
+]

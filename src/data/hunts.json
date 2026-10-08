@@ -1,0 +1,402 @@
+[
+ {
+  "name": "Archaeological Hunt",
+  "section": "Major Events",
+  "duration": null,
+  "sourceUrl": "https://fischipedia.org/wiki/Archaeological_Hunt",
+  "period": "November 2024",
+  "image": null
+ },
+ {
+  "name": "Animal Hunt",
+  "section": "Major Events",
+  "duration": null,
+  "sourceUrl": "https://fischipedia.org/wiki/Animal_Hunt",
+  "period": "April 2025",
+  "image": "https://static.wikitide.net/fischwiki/7/73/Animal_Hunt.png"
+ },
+ {
+  "name": "Beluga Hunt",
+  "section": "Apex Hunts",
+  "duration": "15 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Beluga_Hunt",
+  "periodSec": 10800,
+  "offsetSec": 0,
+  "chance": 20,
+  "scheduleNote": "Narwhal Migration every 3 hours; 20% chance it is a Beluga Hunt",
+  "stock": 2500,
+  "image": "https://static.wikitide.net/fischwiki/5/5b/Beluga.png"
+ },
+ {
+  "name": "Dreadfin Hunt",
+  "section": "Apex Hunts",
+  "duration": "15 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Dreadfin_Hunt",
+  "periodSec": 12600,
+  "offsetSec": 0,
+  "stock": 500,
+  "image": "https://static.wikitide.net/fischwiki/e/e1/Dreadfin.png"
+ },
+ {
+  "name": "Magician Narwhal Hunt",
+  "section": "Apex Hunts",
+  "duration": "15 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Magician_Narwhal_Hunt",
+  "periodSec": 10800,
+  "offsetSec": 0,
+  "chance": 25,
+  "scheduleNote": "Narwhal Migration every 3 hours; 25% chance it is a Magician Narwhal Hunt",
+  "stock": 3500,
+  "image": "https://static.wikitide.net/fischwiki/0/0a/Magician_Narwhal.png"
+ },
+ {
+  "name": "Mosslurker Hunt",
+  "section": "Apex Hunts",
+  "duration": "15 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Mosslurker_Hunt",
+  "periodSec": 14400,
+  "offsetSec": 0,
+  "stock": 300,
+  "image": "https://static.wikitide.net/fischwiki/9/9d/Mosslurker.png"
+ },
+ {
+  "name": "Narwhal Hunt",
+  "section": "Apex Hunts",
+  "duration": "15 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Narwhal_Hunt",
+  "periodSec": 10800,
+  "offsetSec": 0,
+  "chance": 55,
+  "scheduleNote": "Narwhal Migration every 3 hours; 55% chance it is a Narwhal Hunt",
+  "stock": 2500,
+  "image": "https://static.wikitide.net/fischwiki/e/ed/Narwhal.png"
+ },
+ {
+  "name": "Ancient Goldwraith Hunt",
+  "section": "Localized Events",
+  "duration": "10 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Ancient_Goldwraith_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/9/9c/Ancient_Goldwraith.png"
+ },
+ {
+  "name": "Awakened Omnithal Hunt",
+  "section": "Localized Events",
+  "duration": "10 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Awakened_Omnithal_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/9/9d/Awakened_Omnithal.png"
+ },
+ {
+  "name": "Bloop Fish Hunt",
+  "section": "Localized Events",
+  "duration": "30 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Bloop_Fish_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/f/f3/Bloop_Fish.png"
+ },
+ {
+  "name": "Colossus Reef Titan Hunt",
+  "section": "Localized Events",
+  "duration": "10 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Colossus_Reef_Titan_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/6/66/Colossus_Reef_Titan.png"
+ },
+ {
+  "name": "Elder Mossjaw Hunt",
+  "section": "Localized Events",
+  "duration": "10 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Elder_Mossjaw_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/1/11/Elder_Mossjaw.png"
+ },
+ {
+  "name": "Megamouth Shark Hunt",
+  "section": "Localized Events",
+  "duration": "15 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Megamouth_Shark_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/2/20/Megamouth_Shark.png"
+ },
+ {
+  "name": "Olympian Devil Hunt",
+  "section": "Localized Events",
+  "duration": "20 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Olympian_Devil_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/7/7b/Olympian_Devil.png"
+ },
+ {
+  "name": "Phantom Megalodon Hunt",
+  "section": "Localized Events",
+  "duration": "15 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Phantom_Megalodon_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/b/b7/Phantom_Megalodon.png"
+ },
+ {
+  "name": "Photic Terrosunder Hunt",
+  "section": "Localized Events",
+  "duration": "5 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Photic_Terrosunder_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/1/13/Photic_Terrosunder.png"
+ },
+ {
+  "name": "Pliosaur Hunt",
+  "section": "Localized Events",
+  "duration": "10 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Pliosaur_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/9/9f/Pliosaur.png"
+ },
+ {
+  "name": "Profane Leviathan Hunt",
+  "section": "Localized Events",
+  "duration": "20 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Profane_Leviathan_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/6/6a/Profane_Leviathan.png"
+ },
+ {
+  "name": "Sea Leviathan Hunt",
+  "section": "Localized Events",
+  "duration": "15 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Sea_Leviathan_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/7/7f/Sea_Leviathan.png"
+ },
+ {
+  "name": "Styx Angler Hunt",
+  "section": "Localized Events",
+  "duration": "15 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Styx_Angler_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/3/32/Styx_Angler.png"
+ },
+ {
+  "name": "Terrosunder Hunt",
+  "section": "Localized Events",
+  "duration": "5 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Terrosunder_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/0/07/Terrosunder.png"
+ },
+ {
+  "name": "Toxic Guardian Hunt",
+  "section": "Localized Events",
+  "duration": "5 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Toxic_Guardian_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/e/ee/Toxic_Guardian.png"
+ },
+ {
+  "name": "Witherbloom Hunt",
+  "section": "Localized Events",
+  "duration": "5 Minutes (20 seconds if no one near pool)",
+  "sourceUrl": "https://fischipedia.org/wiki/Witherbloom_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/3/3c/Witherbloom.png"
+ },
+ {
+  "name": "Monstrous Cusk Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": "10 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Monstrous_Cusk_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/c/cf/Monstrous_Cusk.png"
+ },
+ {
+  "name": "Rotbloom Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": "10 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Rotbloom_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/c/cd/Rotbloom.png"
+ },
+ {
+  "name": "Shark Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": "Until Caught",
+  "sourceUrl": "https://fischipedia.org/wiki/Shark_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/4/46/Great_White_Shark.png"
+ },
+ {
+  "name": "Colossal Blue Dragon Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": "15 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Colossal_Blue_Dragon_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/7/74/Colossal_Blue_Dragon.png"
+ },
+ {
+  "name": "Skeletal Leviathan Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": "15 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Skeletal_Leviathan_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/7/74/Skeletal_Leviathan.png"
+ },
+ {
+  "name": "Scylla Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": "15 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Scylla_Hunt",
+  "trigger": "Scylla Hunt Totem",
+  "image": "https://static.wikitide.net/fischwiki/6/60/Scylla.png"
+ },
+ {
+  "name": "Goliath Siphonophore Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": null,
+  "sourceUrl": "https://fischipedia.org/wiki/Goliath_Siphonophore_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/c/cf/Goliath_Siphonophore.png"
+ },
+ {
+  "name": "Flower Guardian Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": "10 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Flower_Guardian_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/9/9e/Flower_Guardian.png"
+ },
+ {
+  "name": "Omnithal Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": "10 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Omnithal_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/1/1c/Omnithal.png"
+ },
+ {
+  "name": "Mossjaw Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": "10 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Mossjaw_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/c/ce/Mossjaw.png"
+ },
+ {
+  "name": "Reef Titan Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": "10 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Reef_Titan_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/d/d5/Reef_Titan.png"
+ },
+ {
+  "name": "Kraken Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": "15 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Kraken_Hunt",
+  "trigger": "Kraken Hunt Totem",
+  "image": "https://static.wikitide.net/fischwiki/9/93/Kraken_Hunt_Totem.png"
+ },
+ {
+  "name": "Megalodon Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": "15 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Megalodon_Hunt",
+  "trigger": "Megalodon Hunt Totem",
+  "image": "https://static.wikitide.net/fischwiki/3/36/Megalodon.png"
+ },
+ {
+  "name": "Livyatan Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": "15 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Livyatan_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/0/0a/Livyatan.png"
+ },
+ {
+  "name": "Colossal Ancient Dragon Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": "15 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Colossal_Ancient_Dragon_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/0/01/Colossal_Ancient_Dragon.png"
+ },
+ {
+  "name": "Wyvern Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": null,
+  "sourceUrl": "https://fischipedia.org/wiki/Wyvern_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/c/c1/Wyvern.png"
+ },
+ {
+  "name": "Baby Bloop Fish Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": "10 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Baby_Bloop_Fish_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/3/36/Baby_Bloop_Fish.png"
+ },
+ {
+  "name": "Goldwraith Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": "10 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Goldwraith_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/9/99/Goldwraith.png"
+ },
+ {
+  "name": "Frostwyrm Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": "15 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Frostwyrm_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/c/c0/Frostwyrm.png"
+ },
+ {
+  "name": "Colossal Ethereal Dragon Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": "15 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Colossal_Ethereal_Dragon_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/2/2c/Colossal_Ethereal_Dragon.png"
+ },
+ {
+  "name": "Plesiosaur Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": "10 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Plesiosaur_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/4/43/Plesiosaur.png"
+ },
+ {
+  "name": "Helios Sunray Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": "15 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Helios_Sunray_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/6/60/Helios_Sunray.png"
+ },
+ {
+  "name": "Tidecrasher Archon Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": "15 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Tidecrasher_Archon_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/b/bb/Tidecrasher_Archon.png"
+ },
+ {
+  "name": "Kerauno Wyrm Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": "15 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Kerauno_Wyrm_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/7/7d/Kerauno_Wyrm.png"
+ },
+ {
+  "name": "Legionnaire Lamprey Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": "15 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Legionnaire_Lamprey_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/9/9e/Legionnaire_Lamprey.png"
+ },
+ {
+  "name": "Leviathan Hunt",
+  "section": "Disturbance Spawned Events",
+  "duration": "20 Minutes",
+  "sourceUrl": "https://fischipedia.org/wiki/Leviathan_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/0/0a/Leviathan.png"
+ },
+ {
+  "name": "Global Shark Hunt",
+  "section": "Admin Events",
+  "duration": "60 seconds",
+  "sourceUrl": "https://fischipedia.org/wiki/Global_Shark_Hunt",
+  "image": "https://static.wikitide.net/fischwiki/4/46/Great_White_Shark.png"
+ },
+ {
+  "name": "Apex Fish Hunt",
+  "section": "Admin Events",
+  "duration": null,
+  "sourceUrl": "https://fischipedia.org/wiki/Apex_Fish_Hunt",
+  "period": "Version 1.28.0",
+  "image": "https://static.wikitide.net/fischwiki/b/bf/Ancient_Megalodon.png"
+ },
+ {
+  "name": "Whale Shark Hunt",
+  "section": "Localized Events",
+  "duration": null,
+  "sourceUrl": "https://fischipedia.org/wiki/Whale_Shark_Hunt",
+  "period": "Version 1.01.2",
+  "image": "https://static.wikitide.net/fischwiki/9/91/Whale_Shark.png"
+ },
+ {
+  "name": "Colossal Dragon Hunt",
+  "section": "Totem-summoned",
+  "duration": null,
+  "trigger": "Colossal Dragon Hunt Totem",
+  "sourceUrl": "https://fischipedia.org/wiki/Colossal_Dragon_Hunt_Totem",
+  "image": "https://static.wikitide.net/fischwiki/f/f8/Colossal_Dragon_Hunt_Totem.png"
+ }
+]

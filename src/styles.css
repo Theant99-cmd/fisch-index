@@ -1,0 +1,246 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Design system definition.
+ *
+ * The @theme inline block maps CSS custom properties to Tailwind utility
+ * classes (e.g. --color-primary -> bg-primary, text-primary).
+ *
+ * The :root and .dark blocks define the actual color values using oklch.
+ * All colors MUST use oklch format.
+ *
+ * To add a new semantic color:
+ * 1. Add the variable to :root (light value) and .dark (dark value)
+ * 2. Register it in @theme inline as --color-<name>: var(--<name>)
+ */
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ring-offset-background: var(--background);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --font-heading: "Cinzel", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+:root {
+  --radius: 0.5rem;
+  --background: oklch(0.17 0.035 255);
+  --foreground: oklch(0.93 0.015 240);
+  --card: oklch(0.21 0.04 255);
+  --card-foreground: oklch(0.93 0.015 240);
+  --popover: oklch(0.21 0.04 255);
+  --popover-foreground: oklch(0.93 0.015 240);
+  --primary: oklch(0.78 0.13 200);
+  --primary-foreground: oklch(0.17 0.035 255);
+  --secondary: oklch(0.26 0.045 255);
+  --secondary-foreground: oklch(0.93 0.015 240);
+  --muted: oklch(0.24 0.04 255);
+  --muted-foreground: oklch(0.68 0.03 245);
+  --accent: oklch(0.29 0.05 255);
+  --accent-foreground: oklch(0.95 0.01 240);
+  --destructive: oklch(0.65 0.2 25);
+  --destructive-foreground: oklch(0.98 0 0);
+  --border: oklch(0.31 0.045 255);
+  --input: oklch(0.31 0.045 255);
+  --ring: oklch(0.78 0.13 200);
+  --stage-1: oklch(0.78 0.03 240);
+  --stage-2: oklch(0.76 0.15 150);
+  --stage-3: oklch(0.75 0.13 220);
+  --stage-4: oklch(0.7 0.18 290);
+  --stage-5: oklch(0.78 0.16 60);
+  --stage-6: oklch(0.72 0.2 15);
+  --stage-special: oklch(0.82 0.15 330);
+  --chart-1: oklch(0.78 0.13 200);
+  --chart-2: oklch(0.76 0.15 150);
+  --chart-3: oklch(0.78 0.16 60);
+  --chart-4: oklch(0.7 0.18 290);
+  --chart-5: oklch(0.72 0.2 15);
+  --sidebar: oklch(0.15 0.03 255);
+  --sidebar-foreground: oklch(0.93 0.015 240);
+  --sidebar-primary: oklch(0.78 0.13 200);
+  --sidebar-primary-foreground: oklch(0.17 0.035 255);
+  --sidebar-accent: oklch(0.26 0.045 255);
+  --sidebar-accent-foreground: oklch(0.93 0.015 240);
+  --sidebar-border: oklch(0.31 0.045 255);
+  --sidebar-ring: oklch(0.78 0.13 200);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  body {
+    background-color: var(--color-background);
+    background-image:
+      radial-gradient(60rem 30rem at 85% -10%, oklch(0.55 0.12 200 / 0.18), transparent 70%),
+      radial-gradient(40rem 30rem at 0% 30%, oklch(0.5 0.1 170 / 0.10), transparent 70%),
+      linear-gradient(180deg, oklch(0.2 0.05 230) 0%, oklch(0.13 0.04 250) 55%, oklch(0.09 0.03 260) 100%);
+    background-attachment: fixed;
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    min-height: 100vh;
+  }
+  .num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+}
+
+:root {
+  --background: oklch(0.13 0.04 245);
+  --card: oklch(0.2 0.05 235);
+  --border: oklch(0.36 0.06 215 / 0.55);
+  --input: oklch(0.36 0.06 215 / 0.7);
+  --primary: oklch(0.8 0.13 195);
+  --accent: oklch(0.3 0.06 220);
+  --muted: oklch(0.24 0.05 230);
+  --glow: oklch(0.8 0.13 195 / 0.35);
+}
+
+/* Sea-glass panels */
+.glass {
+  background: linear-gradient(160deg, oklch(0.24 0.06 225 / 0.55), oklch(0.17 0.05 240 / 0.55));
+  backdrop-filter: blur(8px);
+  box-shadow: inset 0 1px 0 oklch(0.9 0.08 200 / 0.08), 0 8px 24px oklch(0.05 0.03 250 / 0.35);
+}
+
+/* Page hero: water tinted per page via --hue, light caustics and a wave line */
+.hero {
+  background:
+    radial-gradient(30rem 12rem at 85% 50%, oklch(0.6 0.14 var(--hue) / 0.35), transparent 70%),
+    repeating-radial-gradient(circle at 20% 120%, oklch(0.9 0.1 var(--hue) / 0.05) 0 2px, transparent 3px 26px),
+    linear-gradient(135deg, oklch(0.28 0.08 var(--hue) / 0.7), oklch(0.15 0.05 245 / 0.7));
+  border-color: oklch(0.6 0.12 var(--hue) / 0.45);
+  min-height: 8.5rem;
+  --glow: oklch(0.75 0.15 var(--hue) / 0.55);
+}
+.hero h1 { color: oklch(0.9 0.1 var(--hue)); }
+.waves {
+  position: absolute; inset: auto 0 0 0; height: 18px; opacity: 0.35;
+  background: radial-gradient(12px 8px at 12px 0, transparent 98%, oklch(0.8 0.12 var(--hue)) 100%) repeat-x;
+  background-size: 24px 18px;
+  animation: drift 12s linear infinite;
+}
+@keyframes drift { to { background-position-x: 240px; } }
+.bob { animation: bob 5s ease-in-out infinite; }
+@keyframes bob { 0%,100% { transform: translateY(0) rotate(-2deg); } 50% { transform: translateY(-6px) rotate(2deg); } }
+@media (prefers-reduced-motion: reduce) { .bob, .waves { animation: none; } }
+
+/* Oceanic glass controls: abyssal tint, sea-glass edge, cyan glow; seafoam/gold when toggled on */
+.glass-ctl {
+  background: oklch(0.3 0.06 215 / 0.4);
+  backdrop-filter: blur(8px);
+  border: 1px solid oklch(0.75 0.1 190 / 0.3);
+  transition: box-shadow 0.15s, border-color 0.15s;
+}
+.glass-ctl:hover:not(:disabled) { box-shadow: 0 0 12px oklch(0.8 0.13 195 / 0.35); border-color: oklch(0.8 0.13 195 / 0.6); }
+.glass-ctl[data-on="owned"] { background: oklch(0.45 0.1 165 / 0.45); border-color: oklch(0.82 0.13 165); color: oklch(0.92 0.1 165); }
+.glass-ctl[data-on="compare"] { background: oklch(0.45 0.1 80 / 0.45); border-color: oklch(0.85 0.15 85); color: oklch(0.93 0.12 85); }
+
+/* Aquatic atmosphere: sun shafts from the surface, drifting caustics and rising bubbles (fixed, behind content) */
+body::before, body::after { content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 0; }
+body::before {
+  background:
+    linear-gradient(100deg, transparent 20%, oklch(0.85 0.1 195 / 0.06) 25%, transparent 32%),
+    linear-gradient(80deg, transparent 55%, oklch(0.85 0.1 195 / 0.05) 60%, transparent 66%),
+    repeating-radial-gradient(ellipse 140px 60px at 30% 10%, oklch(0.9 0.1 195 / 0.035) 0 2px, transparent 3px 40px);
+  mask-image: linear-gradient(180deg, black, transparent 70%);
+  animation: caustics 18s ease-in-out infinite alternate;
+}
+body::after {
+  background-image:
+    radial-gradient(circle at 50% 50%, oklch(0.95 0.05 195 / 0.25) 0 2px, transparent 3px),
+    radial-gradient(circle at 50% 50%, oklch(0.95 0.05 195 / 0.18) 0 1.5px, transparent 2.5px),
+    radial-gradient(circle at 50% 50%, oklch(0.95 0.05 195 / 0.12) 0 3px, transparent 4px);
+  background-size: 180px 260px, 110px 190px, 260px 340px;
+  background-position: 20px 0, 70px 40px, 130px 90px;
+  animation: bubbles 40s linear infinite;
+}
+#root, body > div { position: relative; z-index: 1; }
+@keyframes caustics { to { transform: translateX(4%) skewX(-3deg); opacity: 0.7; } }
+@keyframes bubbles { to { background-position: 20px -1040px, 70px -720px, 130px -1270px; } }
+@media (prefers-reduced-motion: reduce) { body::before, body::after { animation: none; } }
+
+/* Surface-water header and tabs */
+header.sticky {
+  background: linear-gradient(180deg, oklch(0.22 0.07 215 / 0.85), oklch(0.15 0.05 235 / 0.8)) !important;
+  box-shadow: 0 1px 0 oklch(0.8 0.13 195 / 0.25), 0 10px 30px -12px oklch(0.6 0.14 200 / 0.35);
+}
+.glass { border-color: oklch(0.7 0.1 200 / 0.25); }
+.glass:hover { border-color: oklch(0.8 0.13 195 / 0.4); }
+table thead { background: oklch(0.3 0.07 210 / 0.35); }
+
+/* Lighter, shallow-water palette (overrides the deep-sea defaults above) */
+:root {
+  --background: oklch(0.24 0.05 230);
+  --card: oklch(0.32 0.06 220);
+  --muted: oklch(0.36 0.05 220);
+  --muted-foreground: oklch(0.8 0.04 220);
+  --accent: oklch(0.42 0.07 210);
+  --border: oklch(0.7 0.08 205 / 0.45);
+  --input: oklch(0.7 0.08 205 / 0.55);
+}
+body {
+  background-image:
+    radial-gradient(60rem 30rem at 85% -10%, oklch(0.75 0.12 195 / 0.3), transparent 70%),
+    radial-gradient(40rem 30rem at 0% 30%, oklch(0.7 0.1 175 / 0.18), transparent 70%),
+    linear-gradient(180deg, oklch(0.42 0.08 215) 0%, oklch(0.3 0.06 225) 50%, oklch(0.22 0.05 235) 100%) !important;
+}
+.glass {
+  background: linear-gradient(160deg, oklch(0.5 0.08 210 / 0.45), oklch(0.36 0.06 222 / 0.45));
+  box-shadow: inset 0 1px 0 oklch(0.95 0.06 200 / 0.18), 0 8px 24px oklch(0.15 0.04 240 / 0.3);
+}
+.glass-ctl { background: oklch(0.55 0.08 205 / 0.45); border-color: oklch(0.85 0.09 195 / 0.5); }
+.glass-ctl:hover:not(:disabled) { background: oklch(0.62 0.09 200 / 0.5); }
+header.sticky { background: linear-gradient(180deg, oklch(0.45 0.08 210 / 0.9), oklch(0.36 0.07 220 / 0.85)) !important; }
+table thead { background: oklch(0.5 0.08 205 / 0.4); }
+
+/* Nautical field-guide typography + bioluminescent glow */
+h1, h2, h3, .font-heading { font-family: var(--font-heading); letter-spacing: 0.04em; }
+.text-glow-seafoam { text-shadow: 0 0 10px oklch(0.85 0.14 170 / 0.55), 0 0 2px oklch(0.9 0.1 170 / 0.6); }
+.hero h1 { text-shadow: 0 0 14px oklch(0.8 0.14 var(--hue) / 0.55); }
+
+/* Slightly heavier body text; readable dropdown menus */
+body { font-weight: 500; }
+select, select.glass-ctl { background-color: oklch(0.3 0.06 220); color: var(--foreground); }
+select option, select optgroup { background-color: oklch(0.26 0.05 225); color: oklch(0.96 0.02 200); }
