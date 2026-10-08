@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { META } from "@/lib/data";
+import { AmbientAquarium } from "./AmbientAquarium";
 
 export const TABS = [
   { key: "rods", label: "Rods", to: "/" },
@@ -21,7 +22,8 @@ export function Shell({
   children: ReactNode;
 }) {
   return (
-    <div className="min-h-screen">
+    <div className="relative min-h-screen">
+      <AmbientAquarium />
       <header className="sticky top-0 z-20 border-b bg-background/95 backdrop-blur">
         <div className="mx-auto flex max-w-7xl flex-col gap-2 px-3 py-2 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-6 sm:px-4 sm:py-3">
           <div className="flex items-baseline gap-2">
@@ -42,8 +44,8 @@ export function Shell({
           </nav>
         </div>
       </header>
-      <main className="mx-auto max-w-7xl px-3 py-4 sm:px-4 sm:py-6">{children}</main>
-      <footer className="mx-auto max-w-7xl px-4 pb-8 text-xs text-muted-foreground">
+      <main className="relative z-10 mx-auto max-w-7xl px-3 py-4 sm:px-4 sm:py-6">{children}</main>
+      <footer className="relative z-10 mx-auto max-w-7xl px-4 pb-8 text-xs text-muted-foreground">
         All data from {META.scrapedFrom}, collected {META.scrapedAt}. Unknown values show “?”. Fisch Codex is a fan
         tool and not affiliated with Fisch or Roblox.
       </footer>

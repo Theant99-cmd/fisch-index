@@ -1,6 +1,7 @@
-import { Fragment, type CSSProperties, type ReactNode } from "react";
+import { Fragment, useEffect, type CSSProperties, type ReactNode } from "react";
 import { FISH, HUNTS, ITEMS, RODS, loreFor, slug, type Fish, type Item } from "@/lib/data";
 import { KEYS, useStored, type CatchEntry } from "@/lib/storage";
+import { heroSwim } from "./AmbientAquarium";
 import { EntryLink, GameImg, LimitedTag, Panel, Q, RodLink, Src, btnCls } from "./ui";
 
 function Hero({ img, title, tags, hue, children }: { img?: string | null | undefined; title: string; tags: ReactNode; hue: number; children?: ReactNode }) {
@@ -63,6 +64,8 @@ function WikiLore({ url }: { url: string }) {
 export function FishDetailPage({ fish, back }: { fish: Fish | undefined; back: ReactNode }) {
   const [manual, setManual] = useStored<string[]>(KEYS.caught, []);
   const [catches] = useStored<CatchEntry[]>(KEYS.catches, []);
+  const fid = fish ? slug(fish.name) : null;
+  useEffect(() => { if (fid) heroSwim(fid); }, [fid]);
   if (!fish) return <Panel><p className="mb-3">That fish isn't in the codex.</p>{back}</Panel>;
   const logs = catches.filter((c) => c.fish === fish.name);
   const isCaught = manual.includes(fish.name) || logs.length > 0;
