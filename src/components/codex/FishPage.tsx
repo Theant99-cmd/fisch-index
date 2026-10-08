@@ -2,7 +2,7 @@ import emblemFish from "@/assets/emblems/fish.webp";
 import { useMemo, useRef, useState } from "react";
 import { FISH, MUTATIONS, RARITY_ORDER, slug } from "@/lib/data";
 import { KEYS, useStored, type CatchEntry } from "@/lib/storage";
-import { EntryLink, GameImg, LimitedTag, PageHero, Panel, Q, Src, btnCls, inputCls } from "./ui";
+import { EntryLink, GameImg, LimitedTag, PageHero, Panel, Q, btnCls, inputCls } from "./ui";
 
 const PAGE = 100;
 
@@ -126,7 +126,7 @@ export function FishPage() {
                 </td>
                 <td className="px-2 py-1.5">
                   <EntryLink kind="fish" id={slug(f.name)} className="flex items-center gap-2 font-medium hover:text-primary hover:underline"><GameImg src={f.image} alt="" className="h-8 w-8 shrink-0" />{f.name}</EntryLink>
-                  <div className="flex gap-1">{f.limited && <LimitedTag />}<Src url={f.sourceUrl} /></div>
+                  <div className="flex gap-1">{f.limited && <LimitedTag />}</div>
                 </td>
                 <td className="px-2 py-1.5">{f.rarity}</td>
                 <td className="px-2 py-1.5 text-xs"><Q v={f.region} /></td>

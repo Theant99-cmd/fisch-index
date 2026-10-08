@@ -3,9 +3,22 @@ import { useMemo, useState } from "react";
 import { RODS, type Rod } from "@/lib/data";
 import { STAGES, STAGE_VAR, stageOf, type Stage } from "@/lib/stages";
 import { KEYS, useStored } from "@/lib/storage";
-import { Bar, LimitedTag, PageHero, Panel, Q, RodLink, Src, StageBadge, btnCls, fmtKg, inputCls } from "./ui";
+import { Bar, LimitedTag, PageHero, Panel, Q, RodLink, StageBadge, btnCls, fmtKg, inputCls } from "./ui";
 
 type SortKey = "name" | "wikiStage" | "lure" | "luck" | "control" | "resilience" | "maxKg";
+/** Compact pills for the table; full walk-throughs live on the rod detail page. */
+function obtainPills(r: Rod): string[] {
+  const out: string[] = [];
+  const price = r.price?.trim();
+  if (price && /C\$/.test(price)) out.push(`C$ ${price.replace(/\s*C\$\s*/, "")}`);
+  else if (price && /^[\d,]+$/.test(price)) out.push(`R$ ${price}`);
+  const src = r.source?.trim();
+  if (src && !(out.length && /^Purchas/i.test(src))) out.push(src.length > 18 ? "Special" : src);
+  if (r.level) out.push(`Level ${r.level}`);
+  if (!out.length) out.push("?");
+  return out;
+}
+
 const kgNum = (v: Rod["maxKg"]) => (v === "inf" ? Infinity : v ?? -Infinity);
 
 export function RodsPage() {
@@ -85,9 +98,9 @@ export function RodsPage() {
 
       <div className="overflow-x-auto rounded-lg border">
         <table className="w-full text-sm">
-          <thead className="bg-muted text-muted-foreground">
+          <thead className="bg-muted text-xs uppercase tracking-wide text-muted-foreground">
             <tr>
-              <th className="px-2 py-2">Own</th>
+              <th className="px-2 py-2 font-medium">Own</th>
               {head("name", "Rod")}
               {head("wikiStage", "Stage")}
               <th className="px-2 py-2 text-left font-medium">Price / Obtain</th>
@@ -112,7 +125,7 @@ export function RodsPage() {
                     <RodLink id={r.id} className="font-semibold text-foreground underline-offset-2 hover:text-primary hover:underline">{r.name}</RodLink>
                     <div className="flex flex-wrap items-center gap-1 pt-1">
                       {r.limited && <LimitedTag />}
-                      <Src url={r.sourceUrl} />
+                      <RodLink id={r.id} className="text-xs text-primary underline-offset-2 hover:underline">details →</RodLink>
                     </div>
                   </td>
                   <td className="px-2 py-2">
@@ -120,9 +133,11 @@ export function RodsPage() {
                     <div className="num pt-1 text-xs text-muted-foreground">W{r.wikiStage ?? "?"}</div>
                   </td>
                   <td className="px-2 py-2 text-xs">
-                    <div className="num">{r.price ?? "?"}</div>
-                    <div className="text-muted-foreground">{r.source ?? "?"}{r.level ? ` · Lv ${r.level}` : ""}</div>
-                    <div className="text-muted-foreground">{r.journal ?? ""}</div>
+                    <div className="flex max-w-[14rem] flex-wrap gap-1">
+                      {obtainPills(r).map((p) => (
+                        <span key={p} className="num whitespace-nowrap rounded-full border bg-muted/60 px-2 py-0.5 text-[11px] font-medium text-foreground">{p}</span>
+                      ))}
+                    </div>
                   </td>
                   <td className="px-2 py-2"><Q v={r.lure} suffix="%" /></td>
                   <td className="px-2 py-2"><Q v={r.luck} suffix="%" /></td>
