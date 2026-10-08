@@ -12,8 +12,11 @@ export const spriteFor = (id: string) => SPRITES[id] ?? SPRITES[`${id}-hunt`] ??
 
 const EVT = "codex-hero-swim";
 /** Ask the aquarium to send this creature across the screen (used by fish detail pages). */
+let pending: string | null = null;
 export function heroSwim(id: string) {
-  if (typeof window !== "undefined" && spriteFor(id)) window.dispatchEvent(new CustomEvent(EVT, { detail: id }));
+  if (typeof window === "undefined" || !spriteFor(id)) return;
+  pending = id; // picked up if the aquarium mounts after this page's effect runs
+  window.dispatchEvent(new CustomEvent(EVT, { detail: id }));
 }
 
 type Swimmer = { key: number; src: string; top: number; dur: number; scale: number; opacity: number; rtl: boolean; hero: boolean };
@@ -38,7 +41,9 @@ export function AmbientAquarium() {
     const spawn = () => add(make(SPRITES[KEYS_ALL[Math.floor(Math.random() * KEYS_ALL.length)]], false));
     const first = setTimeout(spawn, 1500);
     const t = setInterval(spawn, 9000);
-    const onHero = (e: Event) => { const src = spriteFor((e as CustomEvent<string>).detail); if (src) add(make(src, true)); };
+    const hero = (id: string) => { pending = null; const src = spriteFor(id); if (src) add(make(src, true)); };
+    const onHero = (e: Event) => hero((e as CustomEvent<string>).detail);
+    if (pending) hero(pending);
     window.addEventListener(EVT, onHero);
     return () => { clearTimeout(first); clearInterval(t); window.removeEventListener(EVT, onHero); };
   }, []);
