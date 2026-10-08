@@ -49,7 +49,7 @@ export function AmbientAquarium() {
   }, []);
   const done = (k: number) => setFish((p) => p.filter((f) => f.key !== k));
   return (
-    <div aria-hidden className="pointer-events-none fixed inset-0 z-0 overflow-hidden">
+    <div aria-hidden className="pointer-events-none fixed inset-0 z-0 overflow-hidden" style={{ contain: "strict", transform: "translateZ(0)" }}>
       {fish.map((f) => (
         <div key={f.key} className={`swimmer ${f.rtl ? "swim-rtl" : "swim-ltr"}`} onAnimationEnd={() => done(f.key)}
           style={{ top: `${f.top}%`, animationDuration: `${f.dur}s`, opacity: f.opacity, "--s": f.scale } as CSSProperties}>
