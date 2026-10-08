@@ -244,3 +244,13 @@ h1, h2, h3, .font-heading { font-family: var(--font-heading); letter-spacing: 0.
 body { font-weight: 500; }
 select, select.glass-ctl { background-color: oklch(0.3 0.06 220); color: var(--foreground); }
 select option, select optgroup { background-color: oklch(0.26 0.05 225); color: oklch(0.96 0.02 200); }
+
+/* Ambient aquarium swimmers */
+.swimmer { position: absolute; left: 0; animation-timing-function: linear; animation-fill-mode: forwards; will-change: transform; filter: saturate(0.8) blur(0.3px); }
+.swim-ltr { animation-name: swim-ltr; }
+.swim-rtl { animation-name: swim-rtl; }
+@keyframes swim-ltr { from { transform: translateX(-30vw) scale(var(--s, 1)); } to { transform: translateX(130vw) scale(var(--s, 1)); } }
+@keyframes swim-rtl { from { transform: translateX(130vw) scale(var(--s, 1)); } to { transform: translateX(-30vw) scale(var(--s, 1)); } }
+.swim-bob { animation: swim-bob 6s ease-in-out infinite; }
+@keyframes swim-bob { 0%,100% { translate: 0 0; } 50% { translate: 0 -24px; } }
+@media (prefers-reduced-motion: reduce) { .swimmer { display: none; } }
