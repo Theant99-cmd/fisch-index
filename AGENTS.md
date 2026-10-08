@@ -19,3 +19,4 @@
 - Items carry a `group` (Totems, Equipment, Tools, Consumables, Crafting, Quest Items) set by `scripts/parse_items.py`. Why: drives the Items filter pills.
 - Hunt and fish images come from `scripts/add_hunt_icons.py`, which keeps only wiki image URLs that return HTTP 200. Why: never show guessed pictures.
 - Lore lives in `src/data/lore.json` from `scripts/parse_lore.py`; `loreFor` ignores wiki pages shared by several entries. Why: list pages aren't lore.
+- Background swimmers are bundled webp files in `src/assets/swimmers/` from `scripts/download_swimming_fish.py` (named slug(name), hunts use `-hunt`); `AmbientAquarium` lives in `Shell` and fish pages call `heroSwim(id)`. Why: works in both builds with no network.
