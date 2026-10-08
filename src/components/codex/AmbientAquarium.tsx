@@ -38,7 +38,7 @@ export function AmbientAquarium() {
   useEffect(() => {
     if (!KEYS_ALL.length || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     const add = (s: Swimmer) => setFish((p) => [...p.slice(-4), s]);
-    const spawn = () => add(make(SPRITES[KEYS_ALL[Math.floor(Math.random() * KEYS_ALL.length)]], false));
+    const spawn = () => add(make(SPRITES[KEYS_ALL[Math.floor(Math.random() * KEYS_ALL.length)]!]!, false));
     const first = setTimeout(spawn, 1500);
     const t = setInterval(spawn, 9000);
     const hero = (id: string) => { pending = null; const src = spriteFor(id); if (src) add(make(src, true)); };
