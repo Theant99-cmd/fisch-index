@@ -1,7 +1,7 @@
 import emblemEnchants from "@/assets/emblems/enchants.webp";
 import { useMemo, useState } from "react";
 import { ENCHANTS, RODS } from "@/lib/data";
-import { applyEnchant, parseEffect } from "@/lib/enchantCalc";
+import { applyEnchant, parseEffect, slashValues } from "@/lib/enchantCalc";
 import { Panel, Q, Src, fmtKg, inputCls , PageHero } from "./ui";
 
 export function EnchantsPage() {
