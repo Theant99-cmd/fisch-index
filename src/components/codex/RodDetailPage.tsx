@@ -91,6 +91,16 @@ export function RodDetailPage({ rod, back }: { rod: Rod | undefined; back: React
         ) : <p className="text-sm text-muted-foreground">None listed on the wiki.</p>}
       </Panel>
 
+      <Panel className="space-y-2">
+        <h2 className="text-lg font-semibold">Recommended enchants</h2>
+        <ul className="space-y-1 text-sm">
+          {recommendEnchants(rod).map((e) => (
+            <li key={e.name}><span className="font-semibold text-primary">{e.name}</span> <span className="text-muted-foreground">— {e.why}</span></li>
+          ))}
+        </ul>
+      </Panel>
+
+
       {sameStage.length > 0 && (
         <Panel className="space-y-2">
           <h2 className="text-lg font-semibold">Other {st} rods</h2>
