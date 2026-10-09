@@ -44,7 +44,7 @@ export function parseEffect(effect: string): { delta: StatDelta; conditional: bo
   const headers = [...effect.matchAll(/((?:Outside of|During)\s[^:•]+?)\s*:/g)];
   if (headers.length >= 2) {
     const states = headers.map((h, i) => ({
-      label: h[1].trim(),
+      label: (h[1] ?? "").trim(),
       delta: parseBlock(effect.slice((h.index ?? 0) + h[0].length, headers[i + 1]?.index ?? effect.length)),
     }));
     return { delta: states[0]!.delta, conditional: true, states };
