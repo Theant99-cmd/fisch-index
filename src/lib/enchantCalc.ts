@@ -12,12 +12,11 @@ export interface StatDelta {
 
 const n = (s: string | undefined) => parseFloat((s ?? "0").replace(/,/g, ""));
 
-/** Parse only explicit, signed, unconditional-looking stat lines from the wiki effect text. */
-export function parseEffect(effect: string): { delta: StatDelta; conditional: boolean } {
-  const d: StatDelta = { lure: 0, luck: 0, resilience: 0, control: 0, maxKgAdd: 0, maxKgPct: 0, maxKgInf: false };
-  const parts = effect.split("•").map((p) => p.trim()).filter(Boolean);
-  let conditional = /\b(during|outside|while|when|if|chance|night|day|only)\b/i.test(effect);
-  for (const p of parts) {
+const emptyDelta = (): StatDelta => ({ lure: 0, luck: 0, resilience: 0, control: 0, maxKgAdd: 0, maxKgPct: 0, maxKgInf: false });
+
+function parseBlock(text: string): StatDelta {
+  const d = emptyDelta();
+  for (const p of text.split("•").map((s) => s.trim()).filter(Boolean)) {
     if (/chance/i.test(p)) continue; // chance-based effects are not flat stat changes
     let m: RegExpMatchArray | null;
     if ((m = p.match(/^([+-][\d,.]+)%\s*Lure Speed\b/i))) d.lure += n(m[1]);
@@ -29,8 +28,35 @@ export function parseEffect(effect: string): { delta: StatDelta; conditional: bo
     else if ((m = p.match(/^([+-][\d,.]+)\s*(kg\s*)?Max Kg/i)) || (m = p.match(/^([+-][\d,.]+)\s*kg\b/i)))
       d.maxKgAdd += n(m[1]);
   }
-  if (!parts.length) conditional = true;
-  return { delta: d, conditional };
+  return d;
+}
+
+export interface EnchantState { label: string; delta: StatDelta }
+
+/**
+ * Parse explicit, signed stat lines from the wiki effect text.
+ * Weather-dependent enchants ("Outside of X : … During Y : …") are split into separate
+ * states instead of summed; `delta` is the first (baseline) state.
+ */
+export function parseEffect(effect: string): { delta: StatDelta; conditional: boolean; states: EnchantState[] } {
+  const conditional =
+    !effect.includes("•") && !/^[+-]/.test(effect.trim()) ? true : /\b(during|outside|while|when|if|chance|night|day|only)\b/i.test(effect);
+  const headers = [...effect.matchAll(/((?:Outside of|During)\s[^:•]+?)\s*:/g)];
+  if (headers.length >= 2) {
+    const states = headers.map((h, i) => ({
+      label: h[1].trim(),
+      delta: parseBlock(effect.slice(h.index! + h[0].length, headers[i + 1]?.index ?? effect.length)),
+    }));
+    return { delta: states[0].delta, conditional: true, states };
+  }
+  return { delta: parseBlock(effect), conditional, states: [] };
+}
+
+/** "+50 / +100 / +150%" for a stat across states; null when no state changes it. */
+export function slashValues(states: EnchantState[], key: "lure" | "luck" | "resilience" | "control", suffix: string): string | null {
+  const vals = states.map((s) => s.delta[key]);
+  if (vals.every((v) => v === 0)) return null;
+  return vals.map((v) => `${v > 0 ? "+" : ""}${v}`).join(" / ") + suffix;
 }
 
 export function applyMaxKg(base: MaxKg, d: StatDelta): MaxKg {
