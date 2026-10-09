@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import { FISH, RODS, type Rod } from "@/lib/data";
 import { STAGE_VAR, stageOf } from "@/lib/stages";
+import { recommendEnchants } from "@/lib/rodRanking";
 import { KEYS, useStored } from "@/lib/storage";
 import { GameImg, LimitedTag, Panel, Q, RodLink, Src, StageBadge, btnCls, fmtKg, TierMeter } from "./ui";
 
