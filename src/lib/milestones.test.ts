@@ -6,7 +6,7 @@ import {
   masterlineFishPool,
   masterlineRodPool,
 } from "./milestones";
-import { parseEffect, applyEnchant } from "./enchantCalc";
+import { parseEffect, applyEnchant, slashValues } from "./enchantCalc";
 
 describe("milestones", () => {
   it("Destiny Rod needs 350 Bestiary fish", () => {
@@ -51,5 +51,21 @@ describe("enchant calculator", () => {
   });
   it("ignores chance-based lines", () => {
     expect(parseEffect("• 25% chance for +50% Luck").delta.luck).toBe(0);
+  });
+});
+
+describe("multi-state enchants", () => {
+  const breezed = "Outside of Windy : • +50% Luck • +20% Lure Speed • +10% Progress Speed During Windy : • +100% Luck • +40% Lure Speed • +20% Progress Speed";
+  const storming = "Outside of Rain and Stormy : • +50% Luck • +25% Lure Speed • 25% chance for Electric (2.1×) During Rain : +100% Luck • +50% Lure Speed • 50% chance for Electric (2.1×) During Stormy : +150% Luck • +75% Lure Speed • 75% chance for Electric (2.1×)";
+  it("Breezed does not sum its two states", () => {
+    const p = parseEffect(breezed);
+    expect(p.delta.luck).toBe(50);
+    expect(p.delta.lure).toBe(20);
+    expect(slashValues(p.states, "luck", "%")).toBe("+50 / +100%");
+  });
+  it("Storming shows three luck tiers", () => {
+    const p = parseEffect(storming);
+    expect(slashValues(p.states, "luck", "%")).toBe("+50 / +100 / +150%");
+    expect(slashValues(p.states, "lure", "%")).toBe("+20 / +50 / +75%".replace("+20", "+25"));
   });
 });

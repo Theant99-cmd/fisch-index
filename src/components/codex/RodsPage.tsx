@@ -117,7 +117,7 @@ export function RodsPage() {
             {rows.map((r) => {
               const st = stageOf(r);
               return (
-                <tr key={r.id} className="border-t align-top hover:bg-accent/40" style={{ boxShadow: `inset 3px 0 0 ${STAGE_VAR[st]}` }}>
+                <tr key={r.id} className="border-t align-top hover:bg-accent/40" style={{ boxShadow: `inset 6px 0 0 ${STAGE_VAR[st]}` }}>
                   <td className="px-2 py-2 text-center">
                     <input type="checkbox" aria-label={`Owned ${r.name}`} checked={ownedSet.has(r.id)} onChange={() => toggleOwned(r.id)} />
                   </td>

@@ -1,7 +1,7 @@
 import emblemEnchants from "@/assets/emblems/enchants.webp";
 import { useMemo, useState } from "react";
 import { ENCHANTS, RODS } from "@/lib/data";
-import { applyEnchant, parseEffect } from "@/lib/enchantCalc";
+import { applyEnchant, parseEffect, slashValues } from "@/lib/enchantCalc";
 import { Panel, Q, Src, fmtKg, inputCls , PageHero } from "./ui";
 
 export function EnchantsPage() {
@@ -77,19 +77,28 @@ export function EnchantsPage() {
             <tbody>
               {rowsDef.map(([label, base, out, suf]) => {
                 const diff = typeof base === "number" && typeof out === "number" ? Math.round((out - base) * 1000) / 1000 : null;
+                const key = ({ "Lure Speed": "lure", Luck: "luck", Control: "control", Resilience: "resilience" } as const)[label as "Luck"];
+                const slash = key && parsed?.states.length ? slashValues(parsed.states, key, suf) : null;
+                const slashOut =
+                  slash && typeof base === "number"
+                    ? parsed!.states.map((s) => Math.round((base + s.delta[key!]) * 1000) / 1000).join(" / ") + suf
+                    : null;
                 return (
                   <tr key={label} className="border-t">
                     <td className="py-1.5">{label}</td>
                     <td><Q v={base} suffix={typeof base === "number" ? suf : ""} /></td>
                     <td className={`num ${diff && diff > 0 ? "text-[color:var(--stage-2)]" : diff && diff < 0 ? "text-destructive" : "text-muted-foreground"}`}>
-                      {diff == null ? (base !== out ? "→" : "—") : diff === 0 ? "—" : `${diff > 0 ? "+" : ""}${diff}${suf}`}
+                      {slash ?? (diff == null ? (base !== out ? "→" : "—") : diff === 0 ? "—" : `${diff > 0 ? "+" : ""}${diff}${suf}`)}
                     </td>
-                    <td className="font-semibold"><Q v={out} suffix={typeof out === "number" ? suf : ""} /></td>
+                    <td className="font-semibold">{slashOut ?? <Q v={out} suffix={typeof out === "number" ? suf : ""} />}</td>
                   </tr>
                 );
               })}
             </tbody>
           </table>
+          {parsed && parsed.states.length > 0 && (
+            <p className="mt-3 text-xs text-muted-foreground">Values in order: {parsed.states.map((s) => s.label).join(" / ")}.</p>
+          )}
           {parsed?.conditional && (
             <p className="mt-3 text-xs text-muted-foreground">This enchant has conditional or chance-based effects; read the full text on the left.</p>
           )}
