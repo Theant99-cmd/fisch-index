@@ -134,7 +134,7 @@ export function tierOf(v: number, step: number) {
 export function TierMeter({ v, step }: { v: number | null; step: number }) {
   const { tier, pct } = v == null ? { tier: 0, pct: 0 } : tierOf(v, step);
   return (
-    <div className="relative mt-1 h-2 overflow-hidden rounded bg-muted"
+    <div className="relative mt-1 h-2 overflow-hidden rounded bg-muted-foreground/30"
       style={tier > 0 ? { background: TIER_FILLS[tier - 1] } : undefined}
       title={v == null ? undefined : `Tier ${tier + 1}`}>
       <div className="absolute inset-y-0 left-0 rounded" style={{ width: `${pct}%`, background: TIER_FILLS[tier] }} />
