@@ -14,6 +14,10 @@ ICONIC = ["Whale Shark", "Great White Shark", "Phantom Megalodon", "Isonade", "N
           "Ancient Megalodon", "Leviathan", "Kraken", "Great Hammerhead Shark", "Orca", "Blue Whale",
           "Narwhal", "Beluga", "Colossal Squid", "Mosslurker", "Dreadfin", "Manta Ray", "Sea Turtle"]
 WIDTH = 220
+# Hunts whose wiki icon is not a creature (totems, structures, NPCs, scenery) — never
+# download them: only actual creatures may swim in the background aquarium.
+SKIP = {"Animal Hunt", "Colossal Dragon Hunt", "Kraken Hunt", "Helios Sunray Hunt",
+        "Tidecrasher Archon Hunt", "Olympian Devil Hunt"}
 
 def slug(s: str) -> str:
     return re.sub(r"^-|-$", "", re.sub(r"[^a-z0-9]+", "-", s.lower()))
@@ -22,7 +26,7 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     hunts = json.load(open(ROOT / "src/data/hunts.json"))
     fish = {f["name"]: f for f in json.load(open(ROOT / "src/data/fish.json"))}
-    todo = {h["name"]: h["image"] for h in hunts if h.get("image")}
+    todo = {h["name"]: h["image"] for h in hunts if h.get("image") and h["name"] not in SKIP}
     for n in ICONIC:
         if n in fish and fish[n].get("image"):
             todo.setdefault(n, fish[n]["image"])
