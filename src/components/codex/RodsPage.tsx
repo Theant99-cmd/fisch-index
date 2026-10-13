@@ -116,7 +116,7 @@ export function RodsPage() {
         </select>
         <div className="flex flex-wrap gap-1">
           {AVAIL.map(([k, label]) => (
-            <button key={k} className={btnCls(avail === k)} onClick={() => setAvail(k)}>{label}</button>
+            <button key={k} className={`${btnCls} h-8 px-2.5 text-xs ${avail === k ? "border-primary text-primary" : ""}`} onClick={() => setAvail(k)}>{label}</button>
           ))}
         </div>
         <span className="num ml-auto text-sm text-muted-foreground">{rows.length} shown · compare {compare.length}/3</span>
