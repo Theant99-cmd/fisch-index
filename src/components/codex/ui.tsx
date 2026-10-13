@@ -1,6 +1,6 @@
 import { createContext, useContext, type CSSProperties, type ReactNode } from "react";
 import type { MaxKg } from "@/lib/data";
-import { STAGE_VAR, type Stage } from "@/lib/stages";
+import { STAGE_LABEL, STAGE_VAR, type Stage } from "@/lib/stages";
 
 export function Q({ v, suffix = "" }: { v: string | number | null | undefined; suffix?: string }) {
   if (v === null || v === undefined || v === "") return <span className="num text-muted-foreground">?</span>;
@@ -38,7 +38,7 @@ export function StageBadge({ stage }: { stage: Stage }) {
       className="inline-flex items-center rounded border px-1.5 py-0.5 text-[11px] font-semibold uppercase tracking-widest text-glow-seafoam"
       style={{ color: STAGE_VAR[stage], borderColor: STAGE_VAR[stage] }}
     >
-      {stage}
+      {STAGE_LABEL[stage]}
     </span>
   );
 }

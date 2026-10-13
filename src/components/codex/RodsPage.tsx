@@ -1,7 +1,8 @@
 import emblemRods from "@/assets/emblems/rods.webp";
 import { useMemo, useState } from "react";
 import { RODS, type Rod } from "@/lib/data";
-import { STAGES, STAGE_VAR, stageOf, type Stage } from "@/lib/stages";
+import { priceValue, rodScore, type Availability } from "@/lib/rodRanking";
+import { STAGES, STAGE_LABEL, STAGE_VAR, stageOf, type Stage } from "@/lib/stages";
 import { KEYS, useStored } from "@/lib/storage";
 import { Bar, LimitedTag, PageHero, Panel, Q, RodLink, StageBadge, btnCls, fmtKg, inputCls } from "./ui";
 
@@ -19,6 +20,16 @@ function obtainPills(r: Rod): string[] {
   return out;
 }
 
+type Preset = "" | "best" | "worst" | "cheap" | "pricey";
+const finite = (n: number) => (Number.isFinite(n) ? n : -1);
+const PRESETS: Record<Exclude<Preset, "">, [(r: Rod) => number, 1 | -1]> = {
+  best: [rodScore, -1],
+  worst: [rodScore, 1],
+  cheap: [priceValue, 1],
+  pricey: [(r) => finite(priceValue(r)), -1],
+};
+const AVAIL: [Availability, string][] = [["All", "All"], ["Obtainable", "Obtainable only"], ["Limited", "Limited / Event"], ["Special", "Special"]];
+
 const kgNum = (v: Rod["maxKg"]) => (v === "inf" ? Infinity : v ?? -Infinity);
 
 export function RodsPage() {
@@ -28,7 +39,8 @@ export function RodsPage() {
   const [sort, setSort] = useState<SortKey>("wikiStage");
   const [dir, setDir] = useState<1 | -1>(1);
   const [stageF, setStageF] = useState<Stage | "All">("All");
-  const [showLimited, setShowLimited] = useState(true);
+  const [avail, setAvail] = useState<Availability>("All");
+  const [preset, setPreset] = useState<Preset>("");
   const ownedSet = useMemo(() => new Set(owned), [owned]);
 
   const rows = useMemo(() => {
@@ -37,14 +49,20 @@ export function RodsPage() {
       (r) =>
         (!ql || `${r.name} ${r.source} ${r.journal} ${r.passives.join(" ")}`.toLowerCase().includes(ql)) &&
         (stageF === "All" || stageOf(r) === stageF) &&
-        (showLimited || !r.limited),
+        (avail === "All" ||
+          (avail === "Special" ? stageOf(r) === "Special" : avail === "Limited" ? r.limited : !r.limited)),
     ).sort((a, b) => {
+      if (preset) {
+        const [f, d] = PRESETS[preset];
+        const av = f(a), bv = f(b);
+        return av === bv ? a.name.localeCompare(b.name) : (av < bv ? -1 : 1) * d;
+      }
       if (sort === "name") return a.name.localeCompare(b.name) * dir;
       const av = sort === "maxKg" ? kgNum(a.maxKg) : (a[sort] ?? -Infinity);
       const bv = sort === "maxKg" ? kgNum(b.maxKg) : (b[sort] ?? -Infinity);
       return (av === bv ? a.name.localeCompare(b.name) : av < bv ? -1 : 1) * dir;
     });
-  }, [q, sort, dir, stageF, showLimited]);
+  }, [q, sort, dir, stageF, avail, preset]);
 
   const obtainable = RODS.filter((r) => !r.limited);
   const ownedObtainable = obtainable.filter((r) => ownedSet.has(r.id)).length;
@@ -57,10 +75,10 @@ export function RodsPage() {
   const head = (k: SortKey, label: string) => (
     <th
       className="cursor-pointer select-none px-2 py-2 text-left font-medium hover:text-foreground"
-      onClick={() => (sort === k ? setDir((d) => (d === 1 ? -1 : 1)) : (setSort(k), setDir(k === "name" ? 1 : -1)))}
+      onClick={() => (setPreset(""), sort === k ? setDir((d) => (d === 1 ? -1 : 1)) : (setSort(k), setDir(k === "name" ? 1 : -1)))}
     >
       {label}
-      {sort === k ? (dir === 1 ? " ▲" : " ▼") : ""}
+      {!preset && sort === k ? (dir === 1 ? " ▲" : " ▼") : ""}
     </th>
   );
 
@@ -86,13 +104,21 @@ export function RodsPage() {
         <select className={inputCls} value={stageF} onChange={(e) => setStageF(e.target.value as Stage | "All")}>
           <option value="All">All stages</option>
           {STAGES.map((s) => (
-            <option key={s}>{s}</option>
+            <option key={s} value={s}>{STAGE_LABEL[s]}</option>
           ))}
         </select>
-        <label className="flex items-center gap-2 text-sm">
-          <input type="checkbox" checked={showLimited} onChange={(e) => setShowLimited(e.target.checked)} />
-          Show limited
-        </label>
+        <select className={inputCls} value={preset} onChange={(e) => setPreset(e.target.value as Preset)} aria-label="Sort">
+          <option value="">Sort: table header</option>
+          <option value="best">Best → worst</option>
+          <option value="worst">Worst → best</option>
+          <option value="cheap">Cheapest first</option>
+          <option value="pricey">Most expensive first</option>
+        </select>
+        <div className="flex flex-wrap gap-1">
+          {AVAIL.map(([k, label]) => (
+            <button key={k} className={`${btnCls} h-8 px-2.5 text-xs ${avail === k ? "border-primary text-primary" : ""}`} onClick={() => setAvail(k)}>{label}</button>
+          ))}
+        </div>
         <span className="num ml-auto text-sm text-muted-foreground">{rows.length} shown · compare {compare.length}/3</span>
       </div>
 

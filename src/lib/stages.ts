@@ -49,3 +49,14 @@ export const STAGE_VAR: Record<Stage, string> = {
   Completion: "var(--stage-6)",
   Special: "var(--stage-special)",
 };
+
+/** Display names: numbered stages (the keys stay descriptive for grouping). */
+export const STAGE_LABEL: Record<Stage, string> = {
+  Starter: "Stage 1",
+  "Early Utility": "Stage 2",
+  "Mid Game": "Stage 3",
+  "Late Game": "Stage 4",
+  Endgame: "Stage 5",
+  Completion: "Stage 6",
+  Special: "Special",
+};

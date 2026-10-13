@@ -5,7 +5,11 @@ const FILES = import.meta.glob("../../assets/swimmers/*.webp", { eager: true, im
 const SPRITES: Record<string, string> = Object.fromEntries(
   Object.entries(FILES).map(([p, url]) => [p.split("/").pop()!.replace(/\.webp$/, ""), url]),
 );
-const KEYS_ALL = Object.keys(SPRITES);
+/** Sprites whose head points right (measured from each image's silhouette); the rest face left. */
+const FACES_RIGHT = new Set("ancient-megalodon apex-fish-hunt baby-bloop-fish-hunt beluga-hunt beluga bloop-fish-hunt blue-whale colossal-blue-dragon-hunt colossal-dragon-hunt colossal-ethereal-dragon-hunt colossal-squid elder-mossjaw-hunt flower-guardian-hunt frostwyrm-hunt global-shark-hunt great-hammerhead-shark great-white-shark isonade kraken-hunt leviathan-hunt leviathan magician-narwhal-hunt manta-ray megalodon-hunt megalodon mossjaw-hunt mosslurker-hunt mosslurker narwhal-hunt narwhal nessie orca phantom-megalodon-hunt phantom-megalodon photic-terrosunder-hunt plesiosaur-hunt pliosaur-hunt profane-leviathan-hunt rotbloom-hunt scylla-hunt sea-leviathan-hunt sea-turtle shark-hunt skeletal-leviathan-hunt styx-angler-hunt terrosunder-hunt toxic-guardian-hunt".split(" "));
+const RIGHT_BY_SRC = new Set(Object.entries(SPRITES).filter(([k]) => FACES_RIGHT.has(k)).map(([, u]) => u));
+/** animal-hunt has no transparency, so it is left out of the random pool. */
+const KEYS_ALL = Object.keys(SPRITES).filter((k) => k !== "animal-hunt");
 
 /** Sprite for a fish id (slug), falling back to its hunt render. */
 export const spriteFor = (id: string) => SPRITES[id] ?? SPRITES[`${id}-hunt`] ?? null;
@@ -53,7 +57,7 @@ export function AmbientAquarium() {
       {fish.map((f) => (
         <div key={f.key} className={`swimmer ${f.rtl ? "swim-rtl" : "swim-ltr"}`} onAnimationEnd={() => done(f.key)}
           style={{ top: `${f.top}%`, animationDuration: `${f.dur}s`, opacity: f.opacity, "--s": f.scale } as CSSProperties}>
-          <img src={f.src} alt="" className="swim-bob w-28 sm:w-36" style={{ transform: `scaleX(${f.rtl ? 1 : -1})` }} />
+          <img src={f.src} alt="" className="swim-bob w-28 sm:w-36" style={{ transform: `scaleX(${RIGHT_BY_SRC.has(f.src) === !f.rtl ? 1 : -1})` }} />
         </div>
       ))}
     </div>
