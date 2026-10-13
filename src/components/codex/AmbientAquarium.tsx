@@ -6,10 +6,9 @@ const SPRITES: Record<string, string> = Object.fromEntries(
   Object.entries(FILES).map(([p, url]) => [p.split("/").pop()!.replace(/\.webp$/, ""), url]),
 );
 /** Sprites whose head points right (measured from each image's silhouette); the rest face left. */
-const FACES_RIGHT = new Set("ancient-megalodon apex-fish-hunt baby-bloop-fish-hunt beluga-hunt beluga bloop-fish-hunt blue-whale colossal-blue-dragon-hunt colossal-dragon-hunt colossal-ethereal-dragon-hunt colossal-squid elder-mossjaw-hunt flower-guardian-hunt frostwyrm-hunt global-shark-hunt great-hammerhead-shark great-white-shark isonade kraken-hunt leviathan-hunt leviathan magician-narwhal-hunt manta-ray megalodon-hunt megalodon mossjaw-hunt mosslurker-hunt mosslurker narwhal-hunt narwhal nessie orca phantom-megalodon-hunt phantom-megalodon photic-terrosunder-hunt plesiosaur-hunt pliosaur-hunt profane-leviathan-hunt rotbloom-hunt scylla-hunt sea-leviathan-hunt sea-turtle shark-hunt skeletal-leviathan-hunt styx-angler-hunt terrosunder-hunt toxic-guardian-hunt".split(" "));
+const FACES_RIGHT = new Set("ancient-megalodon apex-fish-hunt baby-bloop-fish-hunt beluga-hunt beluga bloop-fish-hunt blue-whale colossal-blue-dragon-hunt colossal-ethereal-dragon-hunt colossal-squid elder-mossjaw-hunt flower-guardian-hunt frostwyrm-hunt global-shark-hunt great-hammerhead-shark great-white-shark isonade leviathan-hunt leviathan magician-narwhal-hunt manta-ray megalodon-hunt megalodon mossjaw-hunt mosslurker-hunt mosslurker narwhal-hunt narwhal nessie orca phantom-megalodon-hunt phantom-megalodon photic-terrosunder-hunt plesiosaur-hunt pliosaur-hunt profane-leviathan-hunt rotbloom-hunt scylla-hunt sea-leviathan-hunt sea-turtle shark-hunt skeletal-leviathan-hunt styx-angler-hunt terrosunder-hunt toxic-guardian-hunt".split(" "));
 const RIGHT_BY_SRC = new Set(Object.entries(SPRITES).filter(([k]) => FACES_RIGHT.has(k)).map(([, u]) => u));
-/** animal-hunt has no transparency, so it is left out of the random pool. */
-const KEYS_ALL = Object.keys(SPRITES).filter((k) => k !== "animal-hunt");
+const KEYS_ALL = Object.keys(SPRITES);
 
 /** Sprite for a fish id (slug), falling back to its hunt render. */
 export const spriteFor = (id: string) => SPRITES[id] ?? SPRITES[`${id}-hunt`] ?? null;
